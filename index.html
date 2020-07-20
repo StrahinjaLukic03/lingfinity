@@ -17,7 +17,15 @@
                 if(elem.id == "dTbutton"){
                     var element = document.body;
                     element.classList.toggle("dark-mode");
-                    elem.firstChild.data = "Light Theme";
+
+                    if(elem.firstChild.data == "Light Theme"){
+                        elem.firstChild.data = "Dark Theme";
+                        document.getElementById("header").style.color = "black";
+                    }
+                    else{
+                        elem.firstChild.data = "Light Theme";
+                        document.getElementById("header").style.color = "white";
+                    }
                 };
             };
         
@@ -25,7 +33,7 @@
     </div>
 
     <div class="center">
-    <h1>Welcome to the homepage of langLearn!</h1>
+    <h1 id="header">Welcome to the homepage of langLearn!</h1>
     </div>  
 
 
