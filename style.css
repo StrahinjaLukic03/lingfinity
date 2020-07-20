@@ -8,7 +8,6 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
 }
 
 h1 {
@@ -20,12 +19,9 @@ h1 {
     text-align: right;
     padding-right: 1%;
     margin-top: 1%;
-    
 }
 
 .dark-mode{
     color: white;
     background-image: linear-gradient(to right,#2e2a28, black);
-
 }
-
