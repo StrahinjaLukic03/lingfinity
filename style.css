@@ -1,4 +1,9 @@
-h1{
+body {
+    background-image: linear-gradient(to right, #037055, #46056b);
+}
+
+h1 {
+    color: white;
     text-align: center;
     font-family: Nunito;
 }
