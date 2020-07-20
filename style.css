@@ -15,3 +15,15 @@ h1 {
     color: black;
     font-family: Nunito;
 }
+
+#darkTheme{
+    text-align: right;
+    padding-right: 1%;
+    margin-top: 1%;
+    
+}
+
+.dark-mode{
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ffree4kwallpapers.com%2Fuploads%2Foriginals%2F2015%2F07%2F26%2Fpoly-lakeside.jpg&f=1&nofb=1");
+    color: white;
+}
