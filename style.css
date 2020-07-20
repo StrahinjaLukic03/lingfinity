@@ -1,5 +1,5 @@
 body {
-    background-image: linear-gradient(to right, #037055, #46056b);
+    background-image: linear-gradient(to right, #cefff3, #eed1ff);
 }
 
 .center{
@@ -12,6 +12,6 @@ body {
 }
 
 h1 {
-    color: white;
+    color: black;
     font-family: Nunito;
 }
