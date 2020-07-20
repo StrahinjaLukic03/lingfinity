@@ -3,8 +3,12 @@ body {
 }
 
 .center{
-    text-align: center;
-    padding-top: 25%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
 }
 
 h1 {
