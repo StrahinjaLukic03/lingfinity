@@ -1,5 +1,5 @@
 body {
-    background-image: linear-gradient(to right, #cefff3, #eed1ff);
+    background-image: linear-gradient(to right, #cefff3, #cecece);
 }
 
 .center{
@@ -27,6 +27,6 @@ h1 {
 }
 
 .dark-mode{
-    color: white;
-    background-image: linear-gradient(to right, #2e2a28, black);
+    color: white; /*doesn't effect button text colour nor the h1*/
+    background-image: linear-gradient(to right, #121615, #110f13);
 }
