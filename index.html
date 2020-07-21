@@ -21,10 +21,12 @@
                     if(elem.firstChild.data == "Light Theme"){
                         elem.firstChild.data = "Dark Theme";
                         document.getElementById("header").style.color = "black";
+                        document.getElementById("dTbutton").className = "btn btn-dark";
                     }
                     else{
                         elem.firstChild.data = "Light Theme";
                         document.getElementById("header").style.color = "#d1d1d1";
+                        document.getElementById("dTbutton").className = "btn btn-outline-light";
                     }
                 };
             };
