@@ -22,11 +22,13 @@
                         elem.firstChild.data = "Dark Theme";
                         document.getElementById("header").style.color = "black";
                         document.getElementById("dTbutton").className = "btn btn-dark";
+                        document.getElementById("contButton").className = "btn btn-outline-dark";
                     }
                     else{
                         elem.firstChild.data = "Light Theme";
                         document.getElementById("header").style.color = "#d1d1d1";
                         document.getElementById("dTbutton").className = "btn btn-outline-light";
+                        document.getElementById("contButton").className = "btn btn-outline-light";
                     }
                 };
             };
@@ -34,8 +36,11 @@
     </div>
 
     <div class="center">
-    <h1 id="header">Welcome to the homepage of <b>langLearn</b>!</h1> <!--what's the header id for when you don't use it in css?-->
+        <h1 id="header">Welcome to the homepage of <b>langLearn</b>!</h1>
     </div>  
+
+    <a href=""><button type="button" class="btn btn-outline-dark" id="contButton" style="margin:0;position: absolute;top:60%;left:50%;transform: translate(-50%, -50%);height: 70px;width: 140px;">Continue</button></a>
+
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
