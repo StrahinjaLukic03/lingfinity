@@ -2,7 +2,7 @@ body {
     background-image: linear-gradient(to right, #cefff3, #eed1ff);
 }
 
-.center {
+.center{
     margin: 0;
     position: absolute;
     top: 50%;
@@ -16,7 +16,7 @@ h1 {
     text-shadow: 1.5px 2px 2.5px #00000069;
 }
 
-#darkTheme {
+#darkTheme{
     text-align: right;
     padding-right: 1%;
     margin-top: 1%;
@@ -26,12 +26,12 @@ h1 {
     box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.425);
 }
 
-.dark-mode {
+.dark-mode{
     color: white; /*doesn't effect button text colour nor the h1*/
     background-image: linear-gradient(to right, #121615, #110f13);
 }
 
-#contButton {
+#contButton{
     margin:0;
     position: absolute;
     top:60%;
@@ -41,7 +41,7 @@ h1 {
     width: 140px;
 }
 
-.social {
+.social{
     margin:0;
     position: absolute;
     top:85%;
