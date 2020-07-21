@@ -4,11 +4,15 @@ body {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*Centering for title*/
 .center{
 =======
 .center {
 >>>>>>> d54e04d10674fbfcaee40d9a30f273d4ccfc919d
+=======
+.center{
+>>>>>>> parent of d54e04d... minor code formating
     margin: 0;
     position: absolute;
     top: 50%;
@@ -24,11 +28,15 @@ h1 {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*Dark Theme switch*/
 .themeSwitch{
 =======
 #darkTheme {
 >>>>>>> d54e04d10674fbfcaee40d9a30f273d4ccfc919d
+=======
+#darkTheme{
+>>>>>>> parent of d54e04d... minor code formating
     text-align: right;
     padding-right: 1%;
     margin-top: 1%;
@@ -49,13 +57,17 @@ h1 {
     box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.425);
 }
 
-.dark-mode {
+.dark-mode{
     color: white; /*doesn't effect button text colour nor the h1*/
     background-image: linear-gradient(to right, #121615, #110f13);
 }
 
+<<<<<<< HEAD
 #contButton {
 >>>>>>> d54e04d10674fbfcaee40d9a30f273d4ccfc919d
+=======
+#contButton{
+>>>>>>> parent of d54e04d... minor code formating
     margin:0;
     position: absolute;
     top:60%;
@@ -66,11 +78,15 @@ h1 {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*Discord button*/
 .social{
 =======
 .social {
 >>>>>>> d54e04d10674fbfcaee40d9a30f273d4ccfc919d
+=======
+.social{
+>>>>>>> parent of d54e04d... minor code formating
     margin:0;
     position: absolute;
     top:85%;
