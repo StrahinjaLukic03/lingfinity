@@ -1,3 +1,4 @@
+//Switch logic
 function Choice(checkbox){
 	var element = document.body;
 	if(checkbox.checked){

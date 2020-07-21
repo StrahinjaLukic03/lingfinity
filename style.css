@@ -1,3 +1,4 @@
+/*General*/
 .center{
     margin: 0;
     position: absolute;
@@ -27,6 +28,7 @@ h1 {
     color: black;
 }
 
+/*Continue Button*/
 #contButton{
     margin:0;
     position: absolute;
@@ -37,6 +39,7 @@ h1 {
     width: 140px;
 }
 
+/*Discord Button*/
 .social{
     margin:0;
     position: absolute;
@@ -46,7 +49,6 @@ h1 {
 }
 
 /*switch*/
-
 .switch {
     position: relative;
     display: inline-block;
