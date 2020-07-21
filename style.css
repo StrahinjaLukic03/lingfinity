@@ -33,6 +33,7 @@ h1 {
     margin: 15px;
     border-radius: 15px;
     background-color: white;
+    font-family: Nunito, Calibri;
 }
 
 .navbar ul {
@@ -145,4 +146,3 @@ input:checked + .slider:before {
     height: 25px;
     
 }
-
