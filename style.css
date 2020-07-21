@@ -13,8 +13,7 @@ h1 {
     text-shadow: 1.5px 2px 2.5px #00000069;
 }
 
-#darkTheme{
-    text-align: right;
+#themeSwitch{
     padding-top: 9px;
 }
 
@@ -34,6 +33,7 @@ h1 {
     border-radius: 15px;
     background-color: white;
     font-family: Nunito, Calibri;
+
 }
 
 .navbar ul {
@@ -55,6 +55,37 @@ h1 {
 }
 
 .navbar ul li a {
+    color: black;
+}
+
+/*navbar dark-mode*/
+.navbar2 {
+    margin: 15px;
+    border-radius: 15px;
+    background-color: white;
+    font-family: Nunito, Calibri;
+
+}
+
+.navbar2 ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    text-decoration-color: black;
+    list-style-type: none;
+    color: black;
+}
+
+.navbar2 ul :hover {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar2 ul li {
+    padding: 10px;
+}
+
+.navbar2 ul li a {
     color: black;
 }
 
