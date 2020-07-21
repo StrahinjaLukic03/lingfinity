@@ -15,8 +15,7 @@ h1 {
 
 #darkTheme{
     text-align: right;
-    padding-right: 1%;
-    margin-top: 1%;
+    padding-top: 9px;
 }
 
 .dark-mode{
@@ -25,6 +24,36 @@ h1 {
 
 .light-mode{
     background-image: linear-gradient(to right, #cefff3, #eed1ff);
+    color: black;
+}
+
+/*Navbar*/
+
+.navbar {
+    margin: 15px;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.navbar ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    text-decoration-color: black;
+    list-style-type: none;
+    color: black;
+}
+
+.navbar ul :hover {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar ul li {
+    padding: 10px;
+}
+
+.navbar ul li a {
     color: black;
 }
 
@@ -52,8 +81,8 @@ h1 {
 .switch {
     position: relative;
     display: inline-block;
-    width: 60px;
-    height: 34px;
+    width: 45px;
+    height: 27px;
 }
 
 .switch input {
@@ -78,8 +107,8 @@ h1 {
 .slider:before {
     position: absolute;
     content: "";
-    height: 26px;
-    width: 26px;
+    height: 20px;
+    width: 20px;
     left: 4px;
     bottom: 4px;
     background-color: rgb(255, 255, 255);
@@ -98,9 +127,9 @@ input:focus + .slider {
 }
 
 input:checked + .slider:before {
-    -webkit-transform: translateX(26px);
-    -ms-transform: translateX(26px);
-    transform: translateX(26px);
+    -webkit-transform: translateX(16px);
+    -ms-transform: translateX(16px);
+    transform: translateX(16px);
 }
 
 .slider.round {
