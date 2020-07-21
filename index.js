@@ -7,6 +7,7 @@ function Choice(checkbox){
 		document.getElementById("contButton").className = "btn btn-outline-light";
 		document.getElementById("discord").src = "res/Discord-Logo-White.png";
 		document.getElementsByClassName("slider round").style.color = "black";
+		
 	}
 
 	else{
