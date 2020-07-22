@@ -1,3 +1,0 @@
-function UwU(){
-    alert("uwu");
-}
