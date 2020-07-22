@@ -20,7 +20,7 @@ function Choice(checkbox){
 		document.getElementById("bar").style.backgroundColor = "black";
 		document.getElementById("bar").id = "darkBar";
 		bullets.forEach(switchColor);
-		buttons.forEach(buttonSwitch);
+		//buttons.forEach(buttonSwitch);
 	}
 
 	else{
@@ -31,7 +31,7 @@ function Choice(checkbox){
 		document.getElementById("darkBar").id = "bar";
 		document.getElementById("bar").style.backgroundColor = "white";
 		bullets.forEach(switchColor);
-		buttons.forEach(buttonSwitch);
+		//buttons.forEach(buttonSwitch);
 	}
 }
 
@@ -50,9 +50,9 @@ function buttonSwitch(button){
 	var x = document.getElementById(button);
 
 	if(box.checked){
-		x.className = "btn btn-outline-light";
+		x.className = "";
 	}
 	else{
-		x.className = "btn btn-outline-dark";
+		x.className = "";
 	}
 }
