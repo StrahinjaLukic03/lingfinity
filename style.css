@@ -76,6 +76,7 @@ h1 {
 .navbar ul li a {
     color: black;
     display: block;
+    list-style-type: none;
 }
 
 /*Hover for darkMode Bar*/
