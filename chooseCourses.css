@@ -25,9 +25,10 @@
     color: black;
 }
 
-#header{
+#header {
     z-index: 2;
     font-size: 36px;
+    font-family: Nunito, Calibri;
 }
 
 /*Navbar*/
@@ -145,27 +146,27 @@ input:checked + .slider:before {
 }
 
 /*Course choose buttons*/
-
-.container {
-    font-family: Nunito, Calibri;
-    font-size: 25px;
-    margin:0;
-    position: absolute;
-    top:60%;
-    left:50%;
-    transform: translate(-50%, -50%);
-    height: 70px;
-    width: 140px;
-    border-radius: 20px;
-    border-width: 4px;
-}
-
-.flag{
+.flag {
     height: 70px;
     height: 70px;
 }
 
-.lang{
+.lang {
     margin-left: 30px;
     margin-right: 30px;
+}
+
+#container {
+    padding-top: 50px;
+    text-align: center;
+    font-family: Nunito, Calibri;
+}
+
+.widen {
+    width: 120px;
+    
+}
+
+.choose {
+    background-color: yellow;
 }
