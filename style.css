@@ -98,6 +98,10 @@ h1 {
     padding: 10px;
 }
 
+.navbar li:hover {
+    background-color: rgb(36, 36, 36);
+}
+
 .navbar2 ul li a {
     color: black;
 }
