@@ -70,6 +70,7 @@ h1 {
 .navbar li:hover {
     background-color: rgb(231, 231, 231);
     border-radius: 15px;
+    cursor: pointer;
 }
 
 .navbar ul li a {
@@ -138,7 +139,7 @@ h1 {
     transition: .4s;
 }
 
-input:checked + .slider{
+input:checked + .slider {
     background-color: #5318a0;
 }
 
