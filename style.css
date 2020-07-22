@@ -53,7 +53,7 @@ h1 {
 
 .navbar ul :hover {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .navbar ul li {
@@ -71,39 +71,9 @@ h1 {
     display: block;
 }
 
-/*Navbar dark-mode*/
-.navbar2 {
-    margin: 20px;
-    border-radius: 15px;
-    background-color: white;
-    font-family: Nunito, Calibri;
-
-}
-
-.navbar2 ul {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    text-decoration-color: black;
-    list-style-type: none;
-    color: black;
-}
-
-.navbar2 ul :hover {
-    text-decoration: none;
-    color: black;
-}
-
-.navbar2 ul li {
-    padding: 10px;
-}
-
-.navbar li:hover {
+#darkBar li:hover{
     background-color: rgb(36, 36, 36);
-}
-
-.navbar2 ul li a {
-    color: black;
+    border-radius: 15px;
 }
 
 /*Continue Button*/
