@@ -13,5 +13,3 @@ window.onscroll = function() {
 
   prevScrollpos = currentScrollPos;
 }
-
-//It doesn't slide back visible when you scroll up FIX THAT PLS TNX
