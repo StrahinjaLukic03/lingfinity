@@ -23,6 +23,7 @@ h1 {
 
 .dark-mode {
     background-image: linear-gradient(to right, #121615, #110f13);
+    color: white;
 }
 
 .light-mode {
@@ -179,3 +180,4 @@ input:checked + .slider:before {
     width: 25px;
     height: 25px;
 }
+
