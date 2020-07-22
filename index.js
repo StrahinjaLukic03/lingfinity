@@ -1,4 +1,5 @@
 //Switch logic
+
 var box = null;
 var bullets = ["bullet1", "bullet2", "bullet3", "bullet4"];
 
