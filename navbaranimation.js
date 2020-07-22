@@ -1,15 +1,34 @@
 /* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
 var prevScrollpos = window.pageYOffset;
+var currentScrollPos;
+var barID = "bar";
+var checcc = false;
 
 window.onscroll = function() {
   
-  var currentScrollPos = window.pageYOffset;
+  currentScrollPos = window.pageYOffset;
+  if(prevScrollpos < currentScrollPos){
+    document.getElementById(barID).style.top = "-100px";
+    prevScrollpos = currentScrollPos;
+  }
 
-    if (prevScrollpos > currentScrollPos) {
-      document.getElementById("bar").style.top = "0";
-    } else {
-      document.getElementById("bar").style.top = "-100px";
-    }
+  else{
+    var x = currentScrollPos.toString().concat("px");
+    document.getElementById(barID).style.top = x;
+    prevScrollpos = currentScrollPos;
+  }
+   
+}
 
-  prevScrollpos = currentScrollPos;
+function changeName(){
+  if(checcc){
+    barID = "bar";
+    checcc = false;
+  }
+
+  else{
+    barID = "darkBar";
+    checcc = true;
+  }
+
 }
