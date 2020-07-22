@@ -1,5 +1,9 @@
+/*Nunito font*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
 /*General*/
-.center{
+.center {
+    padding: 0;
     margin: 0;
     position: absolute;
     top: 50%;
@@ -13,27 +17,28 @@ h1 {
     text-shadow: 1.5px 2px 2.5px #00000069;
 }
 
-#themeSwitch{
+#themeSwitch {
     padding-top: 9px;
 }
 
-.dark-mode{
+.dark-mode {
     background-image: linear-gradient(to right, #121615, #110f13);
 }
 
-.light-mode{
+.light-mode {
     background-image: linear-gradient(to right, #cefff3, #eed1ff);
     color: black;
 }
 
 /*Navbar*/
-
 .navbar {
-    margin: 15px;
+    margin: 20px;
     border-radius: 15px;
     background-color: white;
     font-family: Nunito, Calibri;
-
+    position: fixed;
+    top: 0;
+    transition: top 0.3s;
 }
 
 .navbar ul {
@@ -52,15 +57,22 @@ h1 {
 
 .navbar ul li {
     padding: 10px;
+    transition: ease 0.5s;
+}
+
+.navbar li:hover {
+    background-color: rgb(231, 231, 231);
+    border-radius: 15px;
 }
 
 .navbar ul li a {
     color: black;
+    display: block;
 }
 
-/*navbar dark-mode*/
+/*Navbar dark-mode*/
 .navbar2 {
-    margin: 15px;
+    margin: 20px;
     border-radius: 15px;
     background-color: white;
     font-family: Nunito, Calibri;
@@ -90,7 +102,9 @@ h1 {
 }
 
 /*Continue Button*/
-#contButton{
+#contButton {
+    font-family: Nunito, Calibri;
+    font-size: 25px;
     margin:0;
     position: absolute;
     top:60%;
@@ -98,18 +112,10 @@ h1 {
     transform: translate(-50%, -50%);
     height: 70px;
     width: 140px;
+    border-radius: 20px;
 }
 
-/*Discord Button*/
-.social{
-    margin:0;
-    position: absolute;
-    top:85%;
-    left:50%;
-    transform: translate(-50%, -50%);
-}
-
-/*switch*/
+/*Switch*/
 .switch {
     position: relative;
     display: inline-block;
@@ -135,7 +141,6 @@ h1 {
     transition: .4s;
 }
 
-
 .slider:before {
     position: absolute;
     content: "";
@@ -148,14 +153,12 @@ h1 {
     transition: .4s;
 }
 
-
 input:checked + .slider{
-    background-color: #1b83d8;
+    background-color: #5318a0;
 }
 
-
 input:focus + .slider {
-    box-shadow: 0 0 1px #2196F3;
+    box-shadow: 0 0 5px #7a3dca;
 }
 
 input:checked + .slider:before {
@@ -168,12 +171,11 @@ input:checked + .slider:before {
     border-radius: 34px;
 }
   
-  .slider.round:before {
+.slider.round:before {
     border-radius: 50%;
 }
 
-#modeImg{
+#modeImg {
     width: 25px;
     height: 25px;
-    
 }
