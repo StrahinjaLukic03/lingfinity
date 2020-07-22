@@ -50,9 +50,9 @@ function buttonSwitch(button){
 	var x = document.getElementById(button);
 
 	if(box.checked){
-		x.className = "btn btn-outline-light widen";
+		x.className = "btn btn-outline-light";
 	}
 	else{
-		x.className = "btn btn-outline-dark widen";
+		x.className = "btn btn-outline-dark";
 	}
 }
