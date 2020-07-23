@@ -98,11 +98,27 @@ h1 {
     border-radius: 20px;
     border-width: 0px 2.5px 5px 0px;
     transition: 0.3s;
+}
+
+.continue {
+    background-color: white;
+    color: black;
     border-color: lightgray;
 }
 
-#contButton:hover {
-    box-shadow: 5px 4px 3px gray;
+.continue:hover {
+    box-shadow: 5px 4px 3px lightgray;
+    transition: 0.3s;
+}
+
+.darkContinue {
+    background-color: black;
+    color: white;
+    border-color: grey;
+}
+
+.darkContinue:hover {
+    box-shadow: 5px 4px 3px rgb(54, 54, 54);
     transition: 0.3s;
 }
 

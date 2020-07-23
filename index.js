@@ -19,9 +19,7 @@ function Choice(checkbox){
 		document.getElementById("bar").style.backgroundColor = "black";
 		document.getElementById("bar").id = "darkBar";
 		bullets.forEach(switchColor);
-		document.getElementById("contButton").style.backgroundColor = "black";
-		document.getElementById("contButton").style.color = "white";
-		document.getElementById("contButton").style.borderColor = "gray";
+		document.getElementById("contButton").className = "darkContinue";
 	}
 
 	else{
@@ -33,9 +31,7 @@ function Choice(checkbox){
 		document.getElementById("darkBar").id = "bar";
 		document.getElementById("bar").style.backgroundColor = "white";
 		bullets.forEach(switchColor);
-		document.getElementById("contButton").style.backgroundColor = "white";
-		document.getElementById("contButton").style.color = "black";
-		document.getElementById("contButton").style.borderColor = "lightgray";
+		document.getElementById("contButton").className = "continue";
 	}
 }
 
