@@ -150,6 +150,7 @@ input:checked + .slider:before {
 /*Buttons with answers*/
 .buttons {
     padding-top: 5%;
+    font-family: Nunito, Calibri;
 }
 
 .option {
