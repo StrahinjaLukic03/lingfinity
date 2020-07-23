@@ -187,7 +187,7 @@ input:checked + .slider:before {
 }
 
 .darkOption:hover {
-    box-shadow: 5px 4px 3px grey;
+    box-shadow: 5px 4px 3px #2c2c2c;
     transition: 0.3s;
 }
 

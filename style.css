@@ -118,7 +118,7 @@ h1 {
 }
 
 .darkContinue:hover {
-    box-shadow: 5px 4px 3px gray;
+    box-shadow: 5px 4px 3px #2c2c2c;
     transition: 0.3s;
 }
 
