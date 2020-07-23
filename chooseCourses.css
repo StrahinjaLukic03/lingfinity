@@ -54,7 +54,6 @@
 
 .navbar ul :hover {
     text-decoration: none;
-    color: black;
 }
 
 .navbar ul li {
@@ -74,7 +73,6 @@
 }
 
 /*Hover for darkMode Bar*/
-
 #darkBar li:hover{
     background-color: rgb(36, 36, 36);
     border-radius: 15px;
@@ -157,16 +155,30 @@ input:checked + .slider:before {
 }
 
 #container {
+    margin: 0;
     padding-top: 50px;
     text-align: center;
     font-family: Nunito, Calibri;
+    color: black;
+}
+
+#container button {
+    border-radius: 20px;
+    transition: 0.3s;
+    border-width: 0px 2.5px 5px 0px;
+    border-color: lightgray;
+}
+
+#container button:hover {
+    box-shadow: 5px 4px 3px gray;
+    transition: 0.3s;
+}
+
+#container button:active {
+    background-color: lightgray;
+    transform: translateY(4px);
 }
 
 .widen {
     width: 120px;
-    
-}
-
-.choose {
-    background-color: yellow;
 }

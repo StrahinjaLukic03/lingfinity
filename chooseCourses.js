@@ -21,6 +21,12 @@ function Choice(checkbox){
 		document.getElementById("bar").id = "darkBar";
 		bullets.forEach(switchColor);
 		//buttons.forEach(buttonSwitch);
+		document.getElementById("finnish").style.backgroundColor = "black";
+		document.getElementById("serbian").style.backgroundColor = "black";
+		document.getElementById("finnishname").style.color = "white";
+		document.getElementById("serbianname").style.color = "white";
+		document.getElementById("finnish").style.borderColor = "gray";
+		document.getElementById("serbian").style.borderColor = "gray";
 	}
 
 	else{
@@ -32,6 +38,12 @@ function Choice(checkbox){
 		document.getElementById("bar").style.backgroundColor = "white";
 		bullets.forEach(switchColor);
 		//buttons.forEach(buttonSwitch);
+		document.getElementById("finnish").style.backgroundColor = "white";
+		document.getElementById("serbian").style.backgroundColor = "white";
+		document.getElementById("finnishname").style.color = "black";
+		document.getElementById("serbianname").style.color = "black";
+		document.getElementById("finnish").style.borderColor = "lightgray";
+		document.getElementById("serbian").style.borderColor = "lightgray";
 	}
 }
 

@@ -19,6 +19,9 @@ function Choice(checkbox){
 		document.getElementById("bar").style.backgroundColor = "black";
 		document.getElementById("bar").id = "darkBar";
 		bullets.forEach(switchColor);
+		document.getElementById("contButton").style.backgroundColor = "black";
+		document.getElementById("contButton").style.color = "white";
+		document.getElementById("contButton").style.borderColor = "gray";
 	}
 
 	else{
@@ -29,9 +32,10 @@ function Choice(checkbox){
 		document.getElementById("modeImg").style.filter = "invert(0%)";
 		document.getElementById("darkBar").id = "bar";
 		document.getElementById("bar").style.backgroundColor = "white";
-
 		bullets.forEach(switchColor);
-
+		document.getElementById("contButton").style.backgroundColor = "white";
+		document.getElementById("contButton").style.color = "black";
+		document.getElementById("contButton").style.borderColor = "lightgray";
 	}
 }
 
