@@ -27,7 +27,6 @@ function Choice(checkbox){
 		document.getElementById("modeImg").style.filter = "invert(0%)";
 		document.getElementById("darkBar").id = "bar";
 		document.getElementById("bar").style.backgroundColor = "white";
-
 		bullets.forEach(switchColor);
 
 	}
@@ -42,4 +41,11 @@ function switchColor(bulletName){
 	else{
 		x.style.color = "black";
 	}
+}
+
+function course1(button){
+
+		var content2 = "<div class='center'> <p>Content got changed.</p> </div>";
+		document.getElementById("container").innerHTML = content2;
+	
 }
