@@ -2,9 +2,7 @@
 
 var box = null;
 var bullets = ["bullet1", "bullet2", "bullet3", "bullet4"];
-
-var css;
-var style = document.createElement('style');
+var options = ["option1", "option2", "option3", "option4"];
 
 function Choice(checkbox){
 	var element = document.body;
@@ -18,6 +16,8 @@ function Choice(checkbox){
 		document.getElementById("bar").style.backgroundColor = "black";
 		document.getElementById("bar").id = "darkBar";
 		bullets.forEach(switchColor);
+		document.getElementById("header").style.color = "white";
+		options.forEach(switchClasses);
 	}
 
 	else{
@@ -28,7 +28,8 @@ function Choice(checkbox){
 		document.getElementById("darkBar").id = "bar";
 		document.getElementById("bar").style.backgroundColor = "white";
 		bullets.forEach(switchColor);
-
+		document.getElementById("header").style.color = "black";
+		options.forEach(switchClasses);
 	}
 }
 
@@ -43,9 +44,14 @@ function switchColor(bulletName){
 	}
 }
 
-function course1(button){
+function switchClasses(optionName){
+	var x = document.getElementById(optionName);
 
-		var content2 = "<div class='center'> <p>Content got changed.</p> </div>";
-		document.getElementById("container").innerHTML = content2;
-	
+	if(box.checked){
+		x.className = "darkOption option";
+	}
+
+	else{
+		x.className = "option";
+	}
 }

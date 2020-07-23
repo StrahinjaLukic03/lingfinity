@@ -11,9 +11,10 @@
     transform: translate(-50%, -50%);
 }
 
-h1 {
+.center h1 {
     color: black;
     font-family: Nunito, Calibri;
+    font-size: 15px;
     text-shadow: 1.5px 2px 2.5px #00000069;
 }
 
@@ -33,7 +34,7 @@ h1 {
 
 #header{
     z-index: 2;
-    font-size: 36px;
+    font-size: 20px;
 }
 
 /*Navbar*/
@@ -81,45 +82,6 @@ h1 {
 #darkBar li:hover{
     background-color: rgb(36, 36, 36);
     border-radius: 15px;
-}
-
-/*Continue Button*/
-#contButton {
-    font-family: Nunito, Calibri;
-    display: block;
-    font-size: 25px;
-    margin:0;
-    position: absolute;
-    top:60%;
-    left:50%;
-    transform: translate(-50%, -50%);
-    height: 70px;
-    width: 140px;
-    border-radius: 20px;
-    border-width: 0px 2.5px 5px 0px;
-    transition: 0.3s;
-}
-
-.continue {
-    background-color: white;
-    color: black;
-    border-color: lightgray;
-}
-
-.continue:hover {
-    box-shadow: 5px 4px 3px lightgray;
-    transition: 0.3s;
-}
-
-.darkContinue {
-    background-color: black;
-    color: white;
-    border-color: grey;
-}
-
-.darkContinue:hover {
-    box-shadow: 5px 4px 3px grey;
-    transition: 0.3s;
 }
 
 /*Switch*/
@@ -185,4 +147,20 @@ input:checked + .slider:before {
 #modeImg {
     width: 25px;
     height: 25px;
+}
+
+/*Buttons with answers*/
+.buttons {
+    padding-top: 5%;
+}
+
+.option {
+    height: 120px;
+    width: 200px;
+    margin: 10px;
+}
+
+.image {
+    height: 200px;
+    width: 250px;
 }

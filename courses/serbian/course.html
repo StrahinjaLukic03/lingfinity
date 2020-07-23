@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>langLearn - Serbian course</title>
     <link rel="stylesheet" href="course.css">
+    <link rel="stylesheet" href="../../stylesheets/button.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
 </head>
@@ -30,18 +31,28 @@
     </nav>
 
 
-    <div id="container">
-        <div class="center">
-            <p>This is a test page for content change.</p>
-            <br>
-            <br>
-            <button id="content1" onclick="course1(this);" class="center">Switch Content</button>
+    <div class="center" id="container">
+        <img src="https://cdn.pixabay.com/photo/2012/05/07/13/35/dog-48479_640.png" alt="image" class="image">
+
+       <h1 id="header">What is on the picture?</h1>
+
+        <div class="buttons">
+            <div>
+                <button type="button" class="option" id="option1"><b>dog</b></button>
+                <button type="button" class="option" id="option2"><b>cat</b></button>
+            </div>
+
+            <div>
+                <button type="button" class="option" id="option3"><b>giraffe</b></button>
+                <button type="button" class="option" id="option4"><b>monkey</b></button>
+            </div>
+
         </div>
     </div>
 
 <script src="../../scripts/navbaranimation.js"></script>
 <script src="course.js"></script>
-<script src="tests/test.js"></script>
+<script src="../../tests/test.js"></script>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
