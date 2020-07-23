@@ -32,7 +32,7 @@
 
 #container button {
     border-radius: 20px;
-    transition: 0.3s;
+    transition: 0.2s;
     border-width: 0px 2.5px 5px 0px;
     outline: none;
 }

@@ -123,6 +123,10 @@ h1 {
     transition: 0.3s;
 }
 
+.darkContinue:active {
+    background-color: gray;
+}
+
 /*Switch*/
 .switch {
     position: relative;
