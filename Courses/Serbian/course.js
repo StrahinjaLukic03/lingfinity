@@ -12,7 +12,7 @@ function Choice(checkbox){
 	if(checkbox.checked){
 
 		element.className = "dark-mode";
-		document.getElementById("modeImg").src = "res/moon.png";
+		document.getElementById("modeImg").src = "../../res/moon.png";
 		document.getElementById("modeImg").className = "animate__animated animate__flipInX";
 		document.getElementById("modeImg").style.filter = "invert(100%)";
 		document.getElementById("bar").style.backgroundColor = "black";
@@ -22,7 +22,7 @@ function Choice(checkbox){
 
 	else{
 		element.className = "light-mode";
-		document.getElementById("modeImg").src = "res/sun.png";
+		document.getElementById("modeImg").src = "../../res/sun.png";
 		document.getElementById("modeImg").className = "animate__animated animate__flipInY";
 		document.getElementById("modeImg").style.filter = "invert(0%)";
 		document.getElementById("darkBar").id = "bar";
