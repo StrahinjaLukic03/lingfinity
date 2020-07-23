@@ -162,3 +162,17 @@ input:checked + .slider:before {
     height: 200px;
     width: 250px;
 }
+
+.question {
+    margin-top: 5%;
+    font-weight: bold;
+}
+
+.answer {
+    font-size: 22.5px;
+}
+
+.disable {
+    opacity: 0.6;
+    cursor: not-allowed;
+}

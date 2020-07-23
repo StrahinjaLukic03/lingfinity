@@ -3,6 +3,7 @@
 var box = null;
 var bullets = ["bullet1", "bullet2", "bullet3", "bullet4"];
 var options = ["option1", "option2", "option3", "option4"];
+var clicked = false;
 
 function Choice(checkbox){
 	var element = document.body;
@@ -54,4 +55,33 @@ function switchClasses(optionName){
 	else{
 		x.className = "option";
 	}
+}
+
+function answering(button){
+	var c = button.id;
+
+	if(!clicked){
+		if(button.id == "option1"){
+			button.style.backgroundColor = "#6fe96d";
+			button.style.color = "darkgreen"
+			clicked = true;
+			var h = options;
+			h.splice(h.indexOf(c),1);
+			h.forEach(makeUnclickable);
+		}
+	
+		else{
+			clicked = true;
+			button.style.backgroundColor = "#e95660";
+			button.style.color = "darkred";
+			var h = options;
+			h.splice(h.indexOf(c),1);
+			h.forEach(makeUnclickable);
+		}
+	}
+
+}
+
+function makeUnclickable(button){
+	document.getElementById(button).className = "option disable"
 }
