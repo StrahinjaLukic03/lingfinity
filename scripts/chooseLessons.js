@@ -6,6 +6,8 @@ var bullets = ["bullet1", "bullet2", "bullet3", "bullet4", "bullet5", "bullet6"]
 var css;
 var style = document.createElement('style');
 
+var buttons = ["serbian", "finnish"];
+
 function Choice(checkbox){
 	var element = document.body;
 	box = checkbox;
@@ -18,6 +20,7 @@ function Choice(checkbox){
 		document.getElementById("bar").style.backgroundColor = "black";
 		document.getElementById("bar").id = "darkBar";
 		bullets.forEach(switchColor);
+		buttons.forEach(buttonSwitch);
 	}
 
 	else{
@@ -27,9 +30,8 @@ function Choice(checkbox){
 		document.getElementById("modeImg").style.filter = "invert(0%)";
 		document.getElementById("darkBar").id = "bar";
 		document.getElementById("bar").style.backgroundColor = "white";
-
 		bullets.forEach(switchColor);
-
+		buttons.forEach(buttonSwitch);
 	}
 }
 
@@ -41,5 +43,16 @@ function switchColor(bulletName){
 	}
 	else{
 		x.style.color = "black";
+	}
+}
+
+function buttonSwitch(button){
+	var x = document.getElementById(button);
+
+	if(box.checked){
+		x.className = "darkOption widen";
+	}
+	else{
+		x.className = "option widen";
 	}
 }

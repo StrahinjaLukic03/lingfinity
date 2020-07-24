@@ -1,7 +1,7 @@
 //Switch logic
 
 var box = null;
-var bullets = ["bullet1", "bullet2", "bullet3", "bullet4"];
+var bullets = ["bullet1", "bullet2", "bullet3", "bullet4", "bullet5", "bullet6"];
 var options = ["option1", "option2", "option3", "option4"];
 var clicked = false;
 
