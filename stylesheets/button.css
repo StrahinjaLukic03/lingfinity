@@ -3,6 +3,9 @@
     color: black;
     border-color: lightgray;
     margin-bottom: 20px;
+    height: 160px;
+    width: 120px;
+    
 }
 
 .option:hover {
@@ -20,6 +23,8 @@
     color: white;
     border-color: gray;
     margin-bottom: 20px;
+    height: 160px;
+    width: 120px;
 }
 
 .darkOption:hover {

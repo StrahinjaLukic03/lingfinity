@@ -174,4 +174,5 @@ input:checked + .slider:before {
     text-align: center;
     font-family: Nunito, Calibri;
     color: black;
+    display: flex;
 }
