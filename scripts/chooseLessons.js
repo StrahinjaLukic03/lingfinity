@@ -6,7 +6,7 @@ var bullets = ["bullet1", "bullet2", "bullet3", "bullet4", "bullet5", "bullet6"]
 var css;
 var style = document.createElement('style');
 
-var buttons = ["serbian", "finnish"];
+var buttons = ["CUV", "FW", "F", "GW", "PP", "TH"];
 
 function Choice(checkbox){
 	var element = document.body;
