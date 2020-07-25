@@ -70,7 +70,7 @@ function answering(button){
 			h.forEach(makeUnclickable);
 			document.getElementById("box").style.filter = "opacity(100%)";
 			document.getElementById("box").className = "contPopup animate__animated animate__bounceInUp";
-			document.getElementById("box").innerHTML = "<p style='text-align: left;'>Correct!</p>";
+			document.getElementById("box").innerHTML = "<p style= 'text-align: left; vertical-align: middle;'><b>Correct!</b></p>";
 		}
 	
 		else{
@@ -82,10 +82,9 @@ function answering(button){
 			h.forEach(makeUnclickable);
 			document.getElementById("box").style.filter = "opacity(100%)";
 			document.getElementById("box").className = "contPopup animate__animated animate__bounceInUp";
-			document.getElementById("box").innerHTML = "<p style='text-align: left;'>Wrong!</p>";
+			document.getElementById("box").innerHTML = "<p style= 'text-align: left; vertical-align: middle;'><b>Wrong!</b></p>";
 		}
 	}
-
 }
 
 function makeUnclickable(button){

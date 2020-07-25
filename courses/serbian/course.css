@@ -149,7 +149,6 @@ input:checked + .slider:before {
 
 /*Buttons with answers*/
 .buttons {
-    padding-top: 5%;
     font-family: Nunito, Calibri;
 }
 
@@ -179,6 +178,8 @@ input:checked + .slider:before {
 }
 
 .contPopup {
+    font-family: Nunito, Calibri;
+    font-size: 25px;
     height: 75px;
     width: 600px;
     background-color: white;
