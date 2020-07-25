@@ -68,6 +68,9 @@ function answering(button){
 			var h = options;
 			h.splice(h.indexOf(c),1);
 			h.forEach(makeUnclickable);
+			document.getElementById("box").style.filter = "opacity(100%)";
+			document.getElementById("box").className = "contPopup animate__animated animate__bounceInUp";
+			document.getElementById("box").innerHTML = "<p style='text-align: left;'>Correct!</p>";
 		}
 	
 		else{
@@ -77,6 +80,9 @@ function answering(button){
 			var h = options;
 			h.splice(h.indexOf(c),1);
 			h.forEach(makeUnclickable);
+			document.getElementById("box").style.filter = "opacity(100%)";
+			document.getElementById("box").className = "contPopup animate__animated animate__bounceInUp";
+			document.getElementById("box").innerHTML = "<p style='text-align: left;'>Wrong!</p>";
 		}
 	}
 

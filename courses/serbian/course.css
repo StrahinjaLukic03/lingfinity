@@ -177,3 +177,12 @@ input:checked + .slider:before {
     opacity: 0.6;
     cursor: not-allowed;
 }
+
+.contPopup {
+    height: 75px;
+    width: 600px;
+    background-color: white;
+    border-radius: 20px;
+    filter: opacity(0%);
+    pointer-events: none;
+}
