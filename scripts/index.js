@@ -20,6 +20,7 @@ function Choice(checkbox){
 		document.getElementById("bar").id = "darkBar";
 		bullets.forEach(switchColor);
 		document.getElementById("contButton").className = "darkContinue";
+		document.getElementById("abouttext").style.color = "white"; //h2 in about.html
 	}
 
 	else{
@@ -32,6 +33,7 @@ function Choice(checkbox){
 		document.getElementById("bar").style.backgroundColor = "white";
 		bullets.forEach(switchColor);
 		document.getElementById("contButton").className = "continue";
+		document.getElementById("abouttext").style.color = "black"; //h2 in about.html
 	}
 }
 
