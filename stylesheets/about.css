@@ -31,7 +31,7 @@ h1 {
 
 .dark-mode {
     background-image: linear-gradient(to right, #121615, #110f13);
-    color: white;
+    color: lightgray;
 }
 
 .light-mode {
@@ -159,4 +159,14 @@ input:checked + .slider:before {
 #modeImg {
     width: 25px;
     height: 25px;
+}
+
+/*Footer*/
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 2%;
+    width: 100%;
+    text-align: center;
+    font-family: Nunito, Calibri;
 }
