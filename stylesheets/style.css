@@ -47,7 +47,14 @@ h1 {
     transition: top 0.3s;
     z-index: 1;
 }
-
+/* This shit doesn't really work with the background color thingie - Trying to make whole button clickable and not only text.
+.navbar button {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: transparent; 
+}
+*/
 .navbar ul {
     margin: 0;
     padding: 0;
