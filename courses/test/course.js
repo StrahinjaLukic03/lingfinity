@@ -83,28 +83,28 @@ function putAnswer(b){
 const answers = [
 	{
 		answer: [
-			{text: 'пас', correct: true},
-			{text: 'мачка', correct: false},
-			{text: 'жирафа', correct: false},
-			{text: 'мајмун', correct: false}
+			{text: 'пас', correct: true}, //dog
+			{text: 'мачка', correct: false}, //cat
+			{text: 'жирафа', correct: false}, //giraffe
+			{text: 'мајмун', correct: false} //monkey
 		]
 	},
 
 	{
 		answer: [
-			{text: 'TEST1', correct: true},
-			{text: 'TEST2', correct: false},
-			{text: 'TEST3', correct: false},
-			{text: 'TEST4', correct: false}
+			{text: 'свиња', correct: true}, //pig
+			{text: 'кокошка', correct: false}, //chicken
+			{text: 'овца', correct: false}, //sheep
+			{text: 'јеж', correct: false} //hedgehog
 		]
 	},
 
 	{
 		answer: [
-			{text: 'kurac1', correct: true},
-			{text: 'kurac2', correct: false},
-			{text: 'kurac3', correct: false},
-			{text: 'kurac4', correct: false}
+			{text: 'крава', correct: true}, //cow
+			{text: 'коњ', correct: false}, //horse
+			{text: 'миш', correct: false}, //mouse
+			{text: 'птица', correct: false} //bird
 		]
 	}
 	
