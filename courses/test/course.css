@@ -1,0 +1,195 @@
+/*Nunito font*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+/*General*/
+.center {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#themeSwitch {
+    padding-top: 9px;
+}
+
+.dark-mode {
+    background-image: linear-gradient(to right, #121615, #110f13);
+    color: white;
+}
+
+.light-mode {
+    background-image: linear-gradient(to right, #cefff3, #eed1ff);
+    color: black;
+}
+
+#header{
+    color: black;
+    font-family: Nunito, Calibri;
+    font-size: 15px;
+    text-shadow: 1.5px 2px 2.5px #00000069;
+    z-index: 2;
+    font-size: 20px;
+}
+
+/*Navbar*/
+.navbar {
+    margin: 20px;
+    border-radius: 15px;
+    background-color: white;
+    font-family: Nunito, Calibri;
+    position: fixed;
+    top: 0;
+    transition: top 0.3s;
+    z-index: 1;
+}
+
+.navbar ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    text-decoration-color: black;
+    list-style-type: none;
+    color: black;
+}
+
+.navbar ul :hover {
+    text-decoration: none;
+}
+
+.navbar ul li {
+    padding: 10px;
+    transition: ease 0.5s;
+}
+
+.navbar li:hover {
+    background-color: rgb(231, 231, 231);
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.navbar ul li a {
+    color: black;
+    display: block;
+}
+
+#alpha {
+    margin: 0;
+    padding: 0;
+    width: 5%;
+}
+
+/*Hover for darkMode Bar*/
+#darkBar li:hover{
+    background-color: rgb(36, 36, 36);
+    border-radius: 15px;
+}
+
+/*Switch*/
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 45px;
+    height: 27px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+  
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    left: 4px;
+    bottom: 4px;
+    background-color: rgb(255, 255, 255);
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .slider {
+    background-color: #5318a0;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 5px #7a3dca;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(16px);
+    -ms-transform: translateX(16px);
+    transform: translateX(16px);
+}
+
+.slider.round {
+    border-radius: 34px;
+}
+  
+.slider.round:before {
+    border-radius: 50%;
+}
+
+#modeImg {
+    width: 25px;
+    height: 25px;
+}
+
+/*Buttons with answers*/
+.buttons {
+    font-family: Nunito, Calibri;
+}
+
+.option {
+    height: 120px;
+    width: 200px;
+    margin: 10px;
+}
+
+.image {
+    height: 200px;
+    width: 250px;
+}
+
+.question {
+    margin-top: 5%;
+    font-weight: bold;
+}
+
+.answer {
+    font-size: 22.5px;
+}
+
+.disable {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.contPopup {
+    font-family: Nunito, Calibri;
+    font-size: 25px;
+    height: 75px;
+    width: 600px;
+    background-color: white;
+    border-radius: 20px;
+    filter: opacity(0%);
+    pointer-events: none;
+}
