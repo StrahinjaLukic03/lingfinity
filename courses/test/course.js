@@ -80,6 +80,40 @@ function putAnswer(b){
 }
 
 
+function eval(b) {
+	var text = b.textContent;
+
+	var finalBool = getAnswerBool(text);
+
+	if(finalBool == true){
+		b.style.backgroundColor = "#6fe96d";
+		b.style.color = "darkgreen"
+	}
+	
+	else{
+		b.style.backgroundColor = "#e95660";
+		b.style.color = "darkred";
+	}
+}
+
+function getAnswerBool(t){
+	var x = answers.length;
+
+	for(var i = 0; i < x; i++){
+		
+		for(var j = 0; j < 4; j++){
+			var h = answers[i].answer[j];
+			var c = h.text;
+			
+			if(c == t){
+				var clickBool = h.correct;
+				return clickBool;
+			}
+		}
+
+	}
+}
+
 const answers = [
 	{
 		answer: [

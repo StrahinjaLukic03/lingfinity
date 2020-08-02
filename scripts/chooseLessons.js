@@ -50,9 +50,9 @@ function buttonSwitch(button){
 	var x = document.getElementById(button);
 
 	if(box.checked){
-		x.className = "darkOption widen";
+		x.className = "darkOption";
 	}
 	else{
-		x.className = "option widen";
+		x.className = "option";
 	}
 }

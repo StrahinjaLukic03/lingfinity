@@ -56,18 +56,18 @@
     text-decoration: none;
 }
 
-.navbar ul li {
+.navbar ul a {
     padding: 10px;
     transition: ease 0.5s;
 }
 
-.navbar li:hover {
+.navbar a:hover {
     background-color: rgb(231, 231, 231);
     border-radius: 15px;
     cursor: pointer;
 }
 
-.navbar ul li a {
+.navbar ul a {
     color: black;
     display: block;
 }

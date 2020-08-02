@@ -1,0 +1,48 @@
+.option {
+    height: 150px;
+    width: 120px;
+    background-color: white;
+    color: black;
+    border-color: lightgray;
+    margin-bottom: 20px;
+    position: relative;
+    
+
+}
+
+.option:hover {
+    box-shadow: 5px 4px 3px gray;
+    transition: 0.3s;
+}
+
+.option:active {
+    background-color: lightgray;
+    transform: translateY(4px);
+}
+
+.darkOption {
+    height: 150px;
+    width: 120px;
+    background-color: black;
+    color: white;
+    border-color: gray;
+    margin-bottom: 20px;
+}
+
+.darkOption:hover {
+    box-shadow: 5px 4px 3px #2c2c2c;
+    transition: 0.3s;
+}
+
+.darkOption:active {
+    background-color: gray;
+    transform: translateY(4px);
+}
+
+#container button {
+    border-radius: 20px;
+    transition: 0.2s;
+    border-width: 0px 2.5px 5px 0px;
+    outline: none;
+}
+
