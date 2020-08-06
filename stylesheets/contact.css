@@ -19,10 +19,20 @@ h1 {
     padding-bottom: 15px;
 }
 
-#abouttext {
+#contacttext {
     font-family: Nunito, Calibri;
     text-shadow: 1.5px 2px 2.5px #00000069;
     font-size: 25px;
+}
+
+#contacttext a {
+    color: #5318a0;
+    transition: 0.3s;
+}
+
+#contacttext a:hover {
+    color: #7a3dca;
+    text-shadow: 3px 3px 10px #7a3dca;
 }
 
 #themeSwitch {
