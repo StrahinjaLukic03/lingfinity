@@ -42,3 +42,53 @@
 .widen {
     width: 120px;
 }
+
+/*Continue button global*/
+.continueButtonGlobal {
+    background-color: white;
+    color: black;
+    border-color: lightgray;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border-width: 0px 2.5px 5px 0px;
+    transition: 0.3s;
+    height: 60px;
+    width: 200px;
+}
+
+.continueButtonGlobal:hover {
+    box-shadow: 5px 4px 3px gray;
+    transition: 0.3s;
+    border-style: none;
+}
+
+.continueButtonGlobal:active {
+    background-color: lightgray;
+    transform: translateY(4px);
+    outline: none;
+}
+
+.darkContinueButtonGlobal {
+    background-color: black;
+    color: white;
+    border-color: gray;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border-width: 0px 2.5px 5px 0px;
+    transition: 0.3s;
+    height: 60px;
+    width: 200px;
+}
+
+.darkContinueButtonGlobal:hover {
+    box-shadow: 5px 4px 3px #2c2c2c;
+    transition: 0.3s;
+}
+
+.darkCuntinueButtonGlobal:active {
+    background-color: gray;
+    transform: translateY(4px);
+    outline: none;
+}
+
+/**/

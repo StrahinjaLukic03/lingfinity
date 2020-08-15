@@ -186,13 +186,25 @@ input:checked + .slider:before {
 /*The continue thingies at the bottom of the page*/
 #bottom {
     font-family: Nunito, Calibri;
-    font-size: 25px;
+    font-size: 22px;
     height: 100px;
     width: 100%;
     background-color: white;
-    /*border-radius: 20px;*/
     bottom: 0;
     position: absolute;
     margin: 0 auto;
     text-align: center;
+    display: inline-flex;
+    padding: 20px;
+}
+
+#continueMessage {
+    bottom: 20px;
+    left: 20px;
+    position: fixed;
+}
+
+#continueButton {
+    right: 20px;
+    position: fixed;
 }
