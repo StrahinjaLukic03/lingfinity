@@ -183,13 +183,16 @@ input:checked + .slider:before {
     cursor: not-allowed;
 }
 
-.contPopup {
+/*The continue thingies at the bottom of the page*/
+#bottom {
     font-family: Nunito, Calibri;
     font-size: 25px;
-    height: 75px;
-    width: 600px;
+    height: 100px;
+    width: 100%;
     background-color: white;
-    border-radius: 20px;
-    filter: opacity(0%);
-    pointer-events: none;
+    /*border-radius: 20px;*/
+    bottom: 0;
+    position: absolute;
+    margin: 0 auto;
+    text-align: center;
 }

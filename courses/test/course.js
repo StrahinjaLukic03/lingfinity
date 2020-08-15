@@ -19,6 +19,8 @@ function Choice(checkbox){
 		bullets.forEach(switchColor);
 		document.getElementById("header").style.color = "white";
 		options.forEach(switchClasses);
+		document.getElementById("bottom").style.backgroundColor = "black";
+		document.getElementById("bottom").style.color = "white";
 	}
 
 	else{
@@ -31,6 +33,8 @@ function Choice(checkbox){
 		bullets.forEach(switchColor);
 		document.getElementById("header").style.color = "black";
 		options.forEach(switchClasses);
+		document.getElementById("bottom").style.backgroundColor = "white";
+		document.getElementById("bottom").style.color = "black";
 	}
 }
 
