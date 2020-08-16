@@ -207,4 +207,7 @@ input:checked + .slider:before {
 #continueButton {
     right: 20px;
     position: fixed;
+    opacity: 25%; /*............Deal with opacity property when the button should be clickable*/
+    cursor: not-allowed; /*.....Deal with cursor property when the button should be clickable*/
+    transition: 0.3s;
 }
