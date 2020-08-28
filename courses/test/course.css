@@ -214,4 +214,5 @@ input:checked + .slider:before {
 
 .correct {
     background-color: "#5EFF19";
+    
 }

@@ -168,12 +168,14 @@ function checc(cB){
 		console.log("true");
 		document.getElementById(selected).style = "background-color:lightgreen; color:green;";
 		document.getElementById("continueMessage").textContent = "This answer is correct!";
+		document.getElementById("continueButton").textContent = "Continue";
 	}
 
 	else{
 		console.log("false");
 		document.getElementById(selected).style = "background-color: #e95660; color: darkred;";
 		document.getElementById("continueMessage").textContent = "This answer is wrong. The correct answer is пас.";
+		document.getElementById("continueButton").textContent = "Continue";
 	}
 }
 
