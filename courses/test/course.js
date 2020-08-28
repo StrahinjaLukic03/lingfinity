@@ -98,7 +98,7 @@ function eval(b) {
 	selected = b.id;
 
 	options.forEach(makeUnclickable);
-	document.getElementById("continueButton").style = "cursor: pointer; opacity:100%; background-color: #5EFF19;";
+	document.getElementById("continueButton").style = "cursor: pointer; opacity:100%; background-color: #5318A0; color: white; border-color: #671ec8;";
 
 }
 
@@ -178,7 +178,3 @@ function checc(cB){
 		document.getElementById("continueButton").textContent = "Continue";
 	}
 }
-
-
-
-
