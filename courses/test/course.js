@@ -64,6 +64,7 @@ function switchClasses(optionName){
 
 //Question section
 const options = ["option1", "option2", "option3", "option4"];
+var selected;
 let index = 0;
 let AnswersIndex = 0;
 
@@ -85,18 +86,25 @@ function putAnswer(b){
 
 
 function eval(b) {
-	var text = b.textContent;
+	if(document.getElementById("theH").className == "dark-mode"){
+		b.style.backgroundColor = "grey";
+	}
 
-	var finalBool = getAnswerBool(text);
-
-	if(finalBool == true){
-		b.style.backgroundColor = "#6fe96d";
-		b.style.color = "darkgreen"
+	else{
+		b.style.backgroundColor = "lightgrey";
 	}
 	
-	else{
-		b.style.backgroundColor = "#e95660";
-		b.style.color = "darkred";
+
+	selected = b.id;
+
+	options.forEach(makeUnclickable);
+	document.getElementById("continueButton").style = "cursor: pointer; opacity:100%; background-color: #5EFF19;";
+
+}
+
+function makeUnclickable(buttonName){
+	if(buttonName != selected){
+		document.getElementById(buttonName).disabled = true;
 	}
 }
 
@@ -150,3 +158,25 @@ const answers = [
 
 
 showAnswer();
+
+
+function checc(cB){
+	var theText = document.getElementById(selected).textContent;
+	var correct = getAnswerBool(theText);
+
+	if(correct){
+		console.log("true");
+		document.getElementById(selected).style = "background-color:lightgreen; color:green;";
+		document.getElementById("continueMessage").textContent = "This answer is correct!";
+	}
+
+	else{
+		console.log("false");
+		document.getElementById(selected).style = "background-color: #e95660; color: darkred;";
+		document.getElementById("continueMessage").textContent = "This answer is wrong. The correct answer is пас.";
+	}
+}
+
+
+
+
