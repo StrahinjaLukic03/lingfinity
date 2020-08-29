@@ -174,7 +174,23 @@ function checc(cB){
 	else{
 		console.log("false");
 		document.getElementById(selected).style = "background-color: #e95660; color: darkred;";
-		document.getElementById("continueMessage").textContent = "This answer is wrong. The correct answer is пас.";
+		var correctText = getCorrectAnswer();
+		var message = "This answer is wrong. The correct answer is ";
+		var correctionMessage = message.concat(correctText);
+		document.getElementById("continueMessage").textContent = correctionMessage;
 		document.getElementById("continueButton").textContent = "Continue";
+	}
+}
+
+function getCorrectAnswer(){
+	var answerArray = answers[AnswersIndex].answer;
+
+	for(var i = 0; i < 4; i++){
+		if(answerArray[i].correct){
+			var z = answerArray[i].text;
+			var a = ".";
+			var h = z.concat(a);
+			return h;
+		}
 	}
 }
