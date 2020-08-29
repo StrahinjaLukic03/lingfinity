@@ -85,7 +85,21 @@ function putAnswer(b){
 }
 
 
+var clicked = false;
+var oldButton = "";
+
 function eval(b) {
+	if(clicked){
+		document.getElementById(oldButton).style = "background-color: white;"
+		oldButton = b.id;
+	}
+
+	else{
+		clicked = true;
+		oldButton = b.id;
+	}
+
+
 	if(document.getElementById("theH").className == "dark-mode"){
 		b.style.backgroundColor = "grey";
 	}
@@ -97,7 +111,6 @@ function eval(b) {
 
 	selected = b.id;
 
-	options.forEach(makeUnclickable);
 	document.getElementById("continueButton").style = "cursor: pointer; opacity:100%; background-color: #5318A0; color: white; border-color: #671ec8;";
 
 }
