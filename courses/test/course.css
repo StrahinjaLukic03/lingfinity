@@ -211,6 +211,7 @@ input:checked + .slider:before {
     cursor: not-allowed; /*.....Deal with cursor property when the button should be clickable*/
     transition: 0.3s;   
     border-style: none;
+    outline: none;
 }
 
 .correct {
