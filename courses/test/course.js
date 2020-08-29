@@ -90,8 +90,18 @@ var oldButton = "";
 
 function eval(b) {
 	if(clicked){
-		document.getElementById(oldButton).style = "background-color: white;"
-		oldButton = b.id;
+		var boo = document.getElementById("theH");
+		if(boo.className == "dark-mode"){
+			document.getElementById(oldButton).style = "background-color: black;"
+			oldButton = b.id;
+		}
+
+		else{
+			document.getElementById(oldButton).style = "background-color: white;";
+			oldButton = b.id;
+		}
+		
+	
 	}
 
 	else{
