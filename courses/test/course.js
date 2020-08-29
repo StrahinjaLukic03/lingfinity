@@ -176,12 +176,15 @@ showAnswer();
 function checc(cB){
 	var theText = document.getElementById(selected).textContent;
 	var correct = getAnswerBool(theText);
+	var sound;
 
 	if(correct){
 		console.log("true");
 		document.getElementById(selected).style = "background-color:lightgreen; color:green;";
 		document.getElementById("continueMessage").textContent = "This answer is correct!";
 		document.getElementById("continueButton").textContent = "Continue";
+		sound = new Audio('../../res/correct.mp3');
+		sound.play();
 	}
 
 	else{
@@ -192,6 +195,8 @@ function checc(cB){
 		var correctionMessage = message.concat(correctText);
 		document.getElementById("continueMessage").textContent = correctionMessage;
 		document.getElementById("continueButton").textContent = "Continue";
+		sound = new Audio('../../res/wrong.mp3');
+		sound.play();
 	}
 }
 
