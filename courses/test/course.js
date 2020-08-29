@@ -203,6 +203,7 @@ else{
 		document.getElementById("continueMessage").textContent = correctionMessage;
 		document.getElementById("continueButton").textContent = "Continue";
 		sound = new Audio('../../res/wrong.mp3');
+		sound.volume = 0.3;
 		sound.play();
 		Cclicked = true;
 	}
