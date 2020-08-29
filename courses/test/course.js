@@ -172,11 +172,17 @@ const answers = [
 
 showAnswer();
 
-
+var Cclicked = false;
 function checc(cB){
 	var theText = document.getElementById(selected).textContent;
 	var correct = getAnswerBool(theText);
 	var sound;
+
+	if(Cclicked){
+		continuing();
+	}
+
+else{
 
 	if(correct){
 		console.log("true");
@@ -185,6 +191,7 @@ function checc(cB){
 		document.getElementById("continueButton").textContent = "Continue";
 		sound = new Audio('../../res/correct.mp3');
 		sound.play();
+		Cclicked = true;
 	}
 
 	else{
@@ -197,7 +204,11 @@ function checc(cB){
 		document.getElementById("continueButton").textContent = "Continue";
 		sound = new Audio('../../res/wrong.mp3');
 		sound.play();
+		Cclicked = true;
 	}
+}
+
+	
 }
 
 function getCorrectAnswer(){
@@ -211,4 +222,8 @@ function getCorrectAnswer(){
 			return h;
 		}
 	}
+}
+
+function continuing(){
+	console.log("continue");
 }
