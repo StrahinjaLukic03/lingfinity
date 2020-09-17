@@ -13,7 +13,7 @@ function Choice(checkbox){
 	box = checkbox;
 	dEnabled = checkbox.checked;
 	if(dEnabled){
-
+		document.getElementById("alpha").src = "res/logoWhite.png";
 		element.className = "dark-mode";
 		document.getElementById("header").style.color = "#d1d1d1";
 		document.getElementById("modeImg").src = "res/moon.png";
@@ -23,10 +23,11 @@ function Choice(checkbox){
 		document.getElementById("bar").id = "darkBar";
 		bullets.forEach(switchColor);
 		document.getElementById("contButton").className = "darkContinue";
-		document.getElementById("alpha").src = "res/logoWhite.png";
+
 	}
 
 	else{
+		document.getElementById("alpha").src = "res/logoBlack.png";
 		element.className = "light-mode";
 		document.getElementById("header").style.color = "black";
 		document.getElementById("modeImg").src = "res/sun.png";
@@ -36,7 +37,7 @@ function Choice(checkbox){
 		document.getElementById("bar").style.backgroundColor = "white";
 		bullets.forEach(switchColor);
 		document.getElementById("contButton").className = "continue";
-		document.getElementById("alpha").src = "res/logoBlack.png";
+
 	}
 }
 
