@@ -1,15 +1,18 @@
 //Switch logic
 
 var box = null;
-var bullets = ["bullet1", "bullet2", "bullet3", "bullet4", "bullet5", "bullet6"];
+var bullets = ["bullet1", "bullet2", "bullet3", "bullet4", "bullet5"];
 
 var css;
 var style = document.createElement('style');
 
+var dEnabled;
+
 function Choice(checkbox){
 	var element = document.body;
 	box = checkbox;
-	if(checkbox.checked){
+	dEnabled = checkbox.checked;
+	if(dEnabled){
 
 		element.className = "dark-mode";
 		document.getElementById("header").style.color = "#d1d1d1";

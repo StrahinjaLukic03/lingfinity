@@ -94,6 +94,7 @@ function eval(b) {
 		if(boo.className == "dark-mode"){
 			document.getElementById(oldButton).style = "background-color: black;"
 			oldButton = b.id;
+			
 		}
 
 		else{
@@ -182,12 +183,14 @@ const answers = [
 
 showAnswer();
 
+
+
 var Cclicked = false;
-function checc(cB){
+function checc(){
 	var theText = document.getElementById(selected).textContent;
 	var correct = getAnswerBool(theText);
 	var sound;
-
+	
 	if(Cclicked){
 		continuing();
 	}
@@ -202,6 +205,8 @@ else{
 		sound = new Audio('../../res/correct.mp3');
 		sound.play();
 		Cclicked = true;
+		options.forEach(makeUnclickable);
+		document.getElementById(selected).disabled = true;
 	}
 
 	else{
@@ -216,6 +221,8 @@ else{
 		sound.volume = 0.3;
 		sound.play();
 		Cclicked = true;
+		options.forEach(makeUnclickable);
+		document.getElementById(selected).disabled = true;
 	}
 }
 
