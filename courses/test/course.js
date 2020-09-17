@@ -87,10 +87,13 @@ function putAnswer(b){
 }
 
 
+
+
 var clicked = false;
 var oldButton = "";
 
 function eval(b) {
+
 	if(clicked){
 		var boo = document.getElementById("theH");
 		if(boo.className == "dark-mode"){
@@ -192,6 +195,7 @@ function checc(){
 	var theText = document.getElementById(selected).textContent;
 	var correct = getAnswerBool(theText);
 	var sound;
+
 	
 	if(Cclicked){
 		continuing();
@@ -200,6 +204,7 @@ function checc(){
 else{
 
 	if(correct){
+
 		console.log("true");
 		document.getElementById(selected).style = "background-color:lightgreen; color:green;";
 		document.getElementById("continueMessage").textContent = "This answer is correct!";
@@ -216,6 +221,7 @@ else{
 		document.getElementById(selected).style = "background-color: #e95660; color: darkred;";
 		var correctText = getCorrectAnswer();
 		var message = "This answer is wrong. The correct answer is ";
+		document.getElementById("continueButton").onclick = nextQuestion();
 		var correctionMessage = message.concat(correctText);
 		document.getElementById("continueMessage").textContent = correctionMessage;
 		document.getElementById("continueButton").textContent = "Continue";
@@ -246,4 +252,30 @@ function getCorrectAnswer(){
 
 function continuing(){
 	console.log("continue");
+	nextQuestion();
+
+}
+
+function nextQuestion(){
+	var oldIndex = AnswersIndex;
+
+	while(oldIndex == AnswersIndex){
+		randomizeAIndex();
+	}
+
+	options.forEach(putAnswer);
+	index = 0;
+}
+
+function refresh(){
+	options.forEach(makeWhite);
+	options.forEach(makeClickable);
+}
+
+function makeWhite(b){
+	b.style = "background-color: white; color: black;";
+}
+
+function makeClickable(b){
+	b.disabled = false;
 }
