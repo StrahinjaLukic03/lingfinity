@@ -21,6 +21,7 @@ function Choice(checkbox){
 		options.forEach(switchClasses);
 		document.getElementById("bottom").style.backgroundColor = "black";
 		document.getElementById("bottom").style.color = "white";
+		document.getElementById("alpha").src = "../../res/logoWhite.png";
 	}
 
 	else{
@@ -35,6 +36,7 @@ function Choice(checkbox){
 		options.forEach(switchClasses);
 		document.getElementById("bottom").style.backgroundColor = "white";
 		document.getElementById("bottom").style.color = "black";
+		document.getElementById("alpha").src = "../../res/logoBlack.png";
 	}
 }
 

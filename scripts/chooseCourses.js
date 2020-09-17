@@ -21,6 +21,7 @@ function Choice(checkbox){
 		document.getElementById("bar").id = "darkBar";
 		bullets.forEach(switchColor);
 		buttons.forEach(buttonSwitch);
+		document.getElementById("alpha").src = "res/logoWhite.png";
 	}
 
 	else{
@@ -32,6 +33,7 @@ function Choice(checkbox){
 		document.getElementById("bar").style.backgroundColor = "white";
 		bullets.forEach(switchColor);
 		buttons.forEach(buttonSwitch);
+		document.getElementById("alpha").src = "res/logoBlack.png";
 	}
 }
 
