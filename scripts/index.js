@@ -1,5 +1,6 @@
-//Switch logic
+// Theme switch switch
 
+// Buttons in the navbar
 var box = null;
 var bullets = ["bullet1", "bullet2", "bullet3", "bullet4", "bullet5"];
 
