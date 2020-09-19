@@ -1,1 +1,2 @@
-Lingfinity readme is yet to be done.
+# Welcome to Lingfinity ♾
+
