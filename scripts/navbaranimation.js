@@ -1,9 +1,10 @@
-/* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
+// When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar
 var prevScrollpos = window.pageYOffset;
 var currentScrollPos;
 var barID = "bar";
 var checcc = false;
 
+// This is confusing pls explain
 window.onscroll = function() {
   
   currentScrollPos = window.pageYOffset;
@@ -19,7 +20,7 @@ window.onscroll = function() {
   }
    
 }
-
+// hmmm
 function changeName(){
   if(checcc){
     barID = "bar";
