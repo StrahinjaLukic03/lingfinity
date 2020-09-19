@@ -1,17 +1,20 @@
 // Theme switch switch
 
-// Buttons in the navbar
+// Buttons in the navbar and the 4 answer buttons
 var box = null;
 var bullets = ["bullet1", "bullet2", "bullet3", "bullet4", "bullet5"];
 var option =  ["option1", "option2", "option3", "option4"];
 
-var css;
+var css; //not used anywhere
 var style = document.createElement('style');
 
+// ehh?
 var buttons = ["serbian", "finnish"];
 
+// hmm?
 var dEnabled;
 
+// Function that changes the colours and images with the theme
 function Choice(checkbox){
 	var element = document.body;
 	box = checkbox;
@@ -48,6 +51,7 @@ function Choice(checkbox){
 	}
 }
 
+// Function with which you switch only 2 colours
 function switchColor(bulletName){
 	var x = document.getElementById(bulletName);
 
@@ -59,6 +63,7 @@ function switchColor(bulletName){
 	}
 }
 
+// Just switching button classes depending on the theme
 function buttonSwitch(button){
 	var x = document.getElementById(button);
 
@@ -70,6 +75,7 @@ function buttonSwitch(button){
 	}
 }
 
+// Just switching classes depending on the theme
 function switchClasses(optionName){
 	var x = document.getElementById(optionName);
 
