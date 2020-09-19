@@ -1,17 +1,20 @@
-//Switch logic
+// Switch logic
 
 var box = null;
 var bullets = ["bullet1", "bullet2", "bullet3", "bullet4", "bullet5"];
 
+// idk what is this
 var clicked = false;
 
+// The 4 buttons that are answers to the question
 var options =  ["option1", "option2", "option3", "option4"];
 
-//Question section
+// Question section
 var selected;
 let index = 0;
 let AnswersIndex = 0;
 
+// Functions
 function showAnswer(){
 	
 	options.forEach(putAnswer);
@@ -30,10 +33,11 @@ function putAnswer(b){
 
 
 
-
+// what the fuck is this
 var clicked = false;
 var oldButton = "";
 
+// Some big brain function for dark and white theme
 function eval(b) {
 
 	if(clicked){
@@ -73,12 +77,14 @@ function eval(b) {
 
 }
 
+// Function that makes the answer buttons unclickable after the answer is checked
 function makeUnclickable(buttonName){
 	if(buttonName != selected){
 		document.getElementById(buttonName).disabled = true;
 	}
 }
 
+// erm i don't know seems like a loop function
 function getAnswerBool(t){
 	var x = answers.length;
 
@@ -97,6 +103,7 @@ function getAnswerBool(t){
 	}
 }
 
+// The storage of the button tables and it's status
 const answers = [
 	{
 		answer: [
@@ -127,18 +134,17 @@ const answers = [
 	
 ];
 
-
+// Show answer obviously
 showAnswer();
 
-
-
+// Explain this mess dud
 var Cclicked = false;
 function checc(){
 	var theText = document.getElementById(selected).textContent;
 	var correct = getAnswerBool(theText);
 	var sound;
 
-	
+	// If the Continue button is clicked then continue (edit if I'm wrong)
 	if(Cclicked){
 		continuing();
 	}
@@ -146,7 +152,7 @@ function checc(){
 else{
 
 	if(correct){
-
+		// does exactly what mate?
 		console.log("true");
 		document.getElementById(selected).style = "background-color:lightgreen; color:green;";
 		document.getElementById("continueMessage").textContent = "This answer is correct!";
@@ -159,6 +165,7 @@ else{
 	}
 
 	else{
+		// also what does it do
 		console.log("false");
 		document.getElementById(selected).style = "background-color: #e95660; color: darkred;";
 		var correctText = getCorrectAnswer();
@@ -176,9 +183,10 @@ else{
 	}
 }
 
-	
+// is this necessary?
 }
 
+// Function that gets and writes the content of the correct answer
 function getCorrectAnswer(){
 	var answerArray = answers[AnswersIndex].answer;
 
@@ -192,12 +200,14 @@ function getCorrectAnswer(){
 	}
 }
 
+// Function that..?
 function continuing(){
 	console.log("continue");
 	nextQuestion();
 
 }
 
+// Next question function that.. ?
 function nextQuestion(){
 	var oldIndex = AnswersIndex;
 
@@ -209,15 +219,18 @@ function nextQuestion(){
 	index = 0;
 }
 
+// Fuction that refreshes the state of the answer buttons
 function refresh(){
 	options.forEach(makeWhite);
 	options.forEach(makeClickable);
 }
 
+// What is this for exactly?
 function makeWhite(b){
 	b.style = "background-color: white; color: black;";
 }
 
+// Function that "makes clickable"
 function makeClickable(b){
 	b.disabled = false;
 }
