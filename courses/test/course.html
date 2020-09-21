@@ -13,9 +13,13 @@
 
 <body class="light-mode" id="theH">
 
+    <!--Navbar-->
     <nav class="navbar animate__animated animate__fadeInDown" id="bar">
 
+        <!--Logo on the left-->
         <img id="alpha" src="../../res/logoBlack.png" alt="Lingfinity"/>
+
+        <!--Link buttons-->
         <ul>
             <a href="../../index.html"><li><b><span id="bullet1">Lingfinity</span></b></li></a>
             <a href="../../chooseCourses.html"><li><span id="bullet2">Courses</span></li></a>
@@ -23,8 +27,13 @@
             <a href="../../contact.html"><li><span id="bullet4">Contact</span></li></a>
             <a href="../../about.html"><li><span id="bullet5">About</span></li></a>
         </ul>
+
+        <!--Theme switch-->
         <span id="themeSwitch">
+
+            <!--Theme icon-->
             <img class="animate__animated" src="../../res/sun.png" alt="sun" id="modeImg">
+            
                 <label class="switch">
                     <input type="checkbox" onclick="Choice(this);changeName();">
                     <span class="slider round"></span>
@@ -32,21 +41,22 @@
             </span>
     </nav>
 
-
+<!--The question with image and 4 answer buttons-->
     <div class="center" id="container">
         <div>
-
+            <!--Image implementation-->
             <img src="../../res/doggo.png" alt="Dog" class="image">
+            <!--Question-->
             <h1 id="header" class="question">What is in the picture above?</h1>
         </div>
 
-
+        <!--Answer buttons-->
         <div class="buttons">
             <div>
                 <button type="button" class="option" id="option1" onclick="eval(this)"><b class="answer">Answer 1</b></button>
                 <button type="button" class="option" id="option2" onclick="eval(this)"><b class="answer">Answer 2</b></button>
             </div>
-
+            <!--Answer buttons 2nd row-->
             <div>
                 <button type="button" class="option" id="option3" onclick="eval(this)"><b class="answer">Answer 3</b></button>
                 <button type="button" class="option" id="option4" onclick="eval(this)"><b class="answer">Answer 4</b></button>
@@ -54,9 +64,11 @@
         </div>
     </div>
 
-    <!-- The continue thingies at the bottom of the page-->
+    <!-- The panel at the bottom of the page-->
     <div id="bottom" id="box">
+        <!--Message-->
         <p id="continueMessage">Select your answer and then press the <b>Check</b> button.</p>
+        <!--Check/Continue button-->
         <button id="continueButton" class="continueButtonGlobal" onclick="checc();"><b>Check</b></button>
     </div>
 

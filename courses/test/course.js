@@ -107,28 +107,28 @@ function getAnswerBool(t){
 const answers = [
 	{
 		answer: [
-			{text: 'пас', correct: true}, //dog
-			{text: 'мачка', correct: false}, //cat
-			{text: 'жирафа', correct: false}, //giraffe
-			{text: 'мајмун', correct: false} //monkey
+			{text: 'пас\npas', correct: true}, //dog
+			{text: 'мачка\nmačka', correct: false}, //cat
+			{text: 'жирафа\nžirafa', correct: false}, //giraffe
+			{text: 'мајмун\nmajmun', correct: false} //monkey
 		]
 	},
 
 	{
 		answer: [
-			{text: 'свиња', correct: true}, //pig
-			{text: 'кокошка', correct: false}, //chicken
-			{text: 'овца', correct: false}, //sheep
-			{text: 'јеж', correct: false} //hedgehog
+			{text: 'свиња\nsvinja', correct: false}, //pig
+			{text: 'кокошка\nkokoška', correct: false}, //chicken
+			{text: 'овца\novca', correct: true}, //sheep
+			{text: 'јеж\njež', correct: false} //hedgehog
 		]
 	},
 
 	{
 		answer: [
-			{text: 'крава', correct: true}, //cow
-			{text: 'коњ', correct: false}, //horse
-			{text: 'миш', correct: false}, //mouse
-			{text: 'птица', correct: false} //bird
+			{text: 'крава\nkrava', correct: false}, //cow
+			{text: 'коњ\nkonj', correct: false}, //horse
+			{text: 'миш\nmiš', correct: true}, //mouse
+			{text: 'птица\nptica', correct: false} //bird
 		]
 	}
 	
