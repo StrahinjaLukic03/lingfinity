@@ -22,12 +22,12 @@ h1 {
 }
 
 .dark-mode {
-    background-image: linear-gradient(to right, #121615, #110f13);
+    background-color: #111111;
     color: white;
 }
 
 .light-mode {
-    background-image: linear-gradient(to right, #cefff3, #eed1ff);
+    background-color: #f1f1f1;
     color: black;
 }
 
