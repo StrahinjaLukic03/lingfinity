@@ -11,10 +11,11 @@
     top: 0;
     transition: top 0.3s;
     z-index: 1;
+    width: 100%;
 }
 
 .navbar ul {
-    margin: 0px;
+    margin: 20px;
     padding: 0;
 }
 
@@ -27,9 +28,13 @@
     transition: ease 0.5s;
     position: absolute;
     left: 50%;
+    top: 50%;
     text-align: center;
     color: black;
     display: block;
+    top: 8px;
+    float: none;
+    justify-content: center;
 }
 
 .navbar a:hover {
