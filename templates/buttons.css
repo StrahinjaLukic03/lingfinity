@@ -23,6 +23,7 @@
 .button:hover {
     box-shadow: 5px 4px 3px gray;
     transition: 0.3s;
+    outline: none;
 }
 
 .button:active {
@@ -58,18 +59,15 @@
 
 
 
-/*Continue button on the homepage*/
-.continueButtonHomepageLight {
+/*Learn button on the homepage properties*/
+.learnButtonHomepageLight {
     margin-bottom: 20px;
     border-radius: 20px;
     border-width: 0px 2.5px 5px 0px;
     height: 60px;
     width: 200px;
     transition: 0.3s;
-    justify-content: space-around;
 }
-
-
 
 /*TOS and Privacy Policy button properties*/
 .iButton {

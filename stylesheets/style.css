@@ -1,15 +1,18 @@
-h1 {
+/*The welcome title properties*/
+#welcomeTitle {
     color: black;
     text-shadow: 1.5px 2px 2.5px #00000069;
-}
-
-#welcomeTitle {
     z-index: 2;
     font-size: 36px;
 }
 
-/*Centered elements on the page in a div*/
+/*The continue button on the homepage additional properties*/
+.learnButtonHomepageLight {
+    margin-left: 225px;
+    margin-top: 30px;
+}
 
+/*Centered elements on the page in a div*/
 .center {
     padding: 0;
     margin: 0;
