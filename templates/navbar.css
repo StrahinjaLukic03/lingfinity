@@ -13,30 +13,28 @@
     z-index: 1;
 }
 
-.navbar ul {
-    margin: 20px;
+.menu {
+    margin: 0;
     padding: 0;
+    display: flex;
+    list-style-type: none;
+    position: relative;
+    left: 37%
 }
 
-.navbar ul :hover {
+.menu :hover {
     text-decoration: none;
 }
 
-.navbar ul a {
+.menu a {
     padding: 10px;
     transition: ease 0.5s;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    text-align: center;
     color: black;
     display: block;
-    top: 8px;
-    float: none;
-    justify-content: center;
+
 }
 
-.navbar ul a:hover {
+.menu a:hover {
     background-color: rgb(231, 231, 231);
     border-radius: 15px;
     cursor: pointer;
