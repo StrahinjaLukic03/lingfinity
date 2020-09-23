@@ -181,18 +181,18 @@ input:checked + .slider:before {
 /*List styling*/
 .center li {
     padding: 0;
-    margin: 5px;
+    margin: 5px 0px;
     list-style-type: none;
     text-decoration-style: none;
+    font-family: Nunito, Calibri;
+    font-size: 20px;
 }
 
 /*Information buttons*/
 .iButton {
-    border: none;
-    border-radius: 5px;
+    border-radius: 10px;
+    height: 50px;
+    width: 400px;
 }
 
 /*List items*/
-.items {
-    margin: auto;
-}

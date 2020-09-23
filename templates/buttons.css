@@ -1,0 +1,79 @@
+/*Nunito font*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+/*General properties*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Nunito, Calibri;
+}
+
+
+/*Properties for light theme that are universal for all buttons*/
+.button {
+    background-color: white;
+    color: black;
+    border-color: lightgray;
+    font-weight: bold;
+    font-size: 20px;
+    outline: none;
+    border-style: none;
+}
+
+.button:hover {
+    box-shadow: 5px 4px 3px gray;
+    transition: 0.3s;
+}
+
+.button:active {
+    background-color: lightgray;
+    transform: translateY(4px);
+}
+
+/*Properties for dark theme that are universal for all buttons*/
+.buttonDark {
+    background-color: black;
+    color: white;
+    border-color: gray;
+}
+
+.buttonDark:hover {
+    box-shadow: 5px 4px 3px #2c2c2c;
+    transition: 0.3s;
+}
+
+.buttonDark:active {
+    background-color: gray;
+    transform: translateY(4px);
+}
+
+
+
+
+
+/*Option buttons properties*/
+.option {
+    margin-bottom: 20px;
+}
+
+
+
+/*Continue button on the homepage*/
+.continueButtonHomepageLight {
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border-width: 0px 2.5px 5px 0px;
+    height: 60px;
+    width: 200px;
+    transition: 0.3s;
+    justify-content: space-around;
+}
+
+
+
+/*TOS and Privacy Policy button properties*/
+.iButton {
+    border-radius: 10px;
+    height: 50px;
+    width: 400px;
+}

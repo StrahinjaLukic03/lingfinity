@@ -63,13 +63,11 @@
 .continueButtonGlobal:hover {
     box-shadow: 5px 4px 3px gray;
     transition: 0.3s;
-    border-style: none;
 }
 
 .continueButtonGlobal:active {
     background-color: lightgray;
     transform: translateY(4px);
-    outline: none;
 }
 
 .darkContinueButtonGlobal {
@@ -89,10 +87,9 @@
     transition: 0.3s;
 }
 
-.darkCuntinueButtonGlobal:active {
+.darkContinueButtonGlobal:active {
     background-color: gray;
     transform: translateY(4px);
-    outline: none;
 }
 
 /**/
