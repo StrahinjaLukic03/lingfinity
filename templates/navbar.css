@@ -1,7 +1,7 @@
 /*Nunito font*/
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
-/*Navbar*/
+/*Navbar light theme*/
 .navbar {
     margin: 20px;
     border-radius: 15px;
@@ -13,13 +13,14 @@
     z-index: 1;
 }
 
+/*The div with the link buttons light theme*/
 .menu {
     margin: 0;
     padding: 0;
     display: flex;
     list-style-type: none;
     position: relative;
-    left: 37%
+    left: 40%
 }
 
 .menu :hover {
@@ -38,13 +39,33 @@
     background-color: rgb(231, 231, 231);
     border-radius: 15px;
     cursor: pointer;
+    color: black;
 }
 
-#logo {
-    width: 5%;
+
+
+
+
+/*Navbar dark theme*/
+.navbarDark {
+    background-color: black;
 }
 
-/*Hover for darkMode Bar*/
+/*The div with the link buttons dark theme*/
+.menuDark a {
+    color: white;
+}
+
+.menuDark a:hover {
+    background-color: rgb(231, 231, 231); /*find a value for this color (might just be gray)*/
+    color: white;
+}
+
+
+
+
+
+/*Hover for darkMode Bar*/     /*----------What is this for again?----------*/
 #darkBar ul li a:hover{
     background-color: rgb(36, 36, 36);
 }
