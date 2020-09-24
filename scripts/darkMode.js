@@ -1,33 +1,36 @@
 // Theme switch switch
 
-// Buttons in the navbar and the 4 answer buttons
-var box = null;
-var bullets = ["bullet1", "bullet2", "bullet3", "bullet4", "bullet5"];
-var option =  ["option1", "option2", "option3", "option4"];
 
-var css; //not used anywhere
-var style = document.createElement('style');
+var box = null; //checkbox variable
+var bullets = ["bullet1", "bullet2", "bullet3", "bullet4", "bullet5"]; //menu points
+var option =  ["option1", "option2", "option3", "option4"]; //answer options
 
-// ehh?
-var buttons = ["serbian", "finnish"];
+var buttons = ["serbian", "finnish"]; //language choice buttons
 
-// hmm?
-var dEnabled;
+// Determines whether darkTheme got enabled or not
+var darkThemeEnabled;
 
-// Function that changes the colours and images with the theme
-function Choice(checkbox){
-	var element = document.body;
-	box = checkbox;
-	dEnabled = checkbox.checked;
-	if(dEnabled){
-		element.className = "bodyDark";
+/*
+	This function switches the Theme depending on the state of the parameter.
+	Parameter:
+		-checkbox: checkbox which will be marked on the website
+*/
+function switchTheme(checkbox){
+	//var
+	var element = document.body; //gets the body of the website
+	box = checkbox; //saves the checkbox object into the box variable
+	darkThemeEnabled = checkbox.checked; //puts the darkThemeEnabled bool according to the state whether the checkbox got checked or not
+
+	//code
+	if(darkThemeEnabled){
+		element.className = "bodyDark"; 
 		document.getElementById("header").style.color = "#d1d1d1";
 		document.getElementById("bar").style.backgroundColor = "black";
 		document.getElementById("bar").id = "darkBar";
-		bullets.forEach(switchColor);
+		bullets.forEach(switchColor); //changes color of the menu points
         document.getElementById("contButton").className = "darkContinue";
-		buttons.forEach(buttonSwitch);
-		option.forEach(switchClasses);
+		buttons.forEach(buttonSwitch); //changes color of the language buttons
+		option.forEach(switchClasses); //changes color of the options
 
 	}
 
@@ -36,14 +39,14 @@ function Choice(checkbox){
 		document.getElementById("header").style.color = "black";
 		document.getElementById("darkBar").id = "bar";
 		document.getElementById("bar").style.backgroundColor = "white";
-		bullets.forEach(switchColor);
+		bullets.forEach(switchColor); //changes color of the menu points
 		document.getElementsByClassName("learnButtonHomepage").className = "continue";
-		buttons.forEach(buttonSwitch);
-		options.forEach(switchClasses);
+		buttons.forEach(buttonSwitch); //changes color of the buttons
+		options.forEach(switchClasses); //changes color of the answer options
 	}
 }
 
-// Function with which you switch only 2 colours
+//function which was made for changing the color of the menu points
 function switchColor(bulletName){
 	var x = document.getElementById(bulletName);
 
@@ -55,7 +58,7 @@ function switchColor(bulletName){
 	}
 }
 
-// Just switching button classes depending on the theme
+//function which was made for changing the color of the languages buttons
 function buttonSwitch(button){
 	var x = document.getElementById(button);
 
@@ -67,7 +70,7 @@ function buttonSwitch(button){
 	}
 }
 
-// Just switching classes depending on the theme
+//function which was made for changing the color of the answer buttons
 function switchClasses(optionName){
 	var x = document.getElementById(optionName);
 
