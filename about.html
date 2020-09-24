@@ -5,37 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lingfinity - About</title>
     <link rel="icon" href="res/logoSmall.png" type="image/x-icon">
-    <link rel="stylesheet" href="stylesheets/about.css">
+    <link rel="stylesheet" href="stylesheets/about.css"> <!--Don't forget to change depending on the page-->
+    <link rel="stylesheet" href="templates/general.css">
+    <link rel="stylesheet" href="templates/navbar.css">
+    <link rel="stylesheet" href="templates/buttons.css">
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
 </head>
 
-<body class="light-mode">
+<body class="bodyLight">
 
-    <nav class="navbar animate__animated animate__fadeInDown" id="bar">
+    <!--Navbar-->
+    <nav class="navbar" id="bar">
 
-        <img id="alpha" src="res/logoBlack.png" alt="Lingfinity"/>
-        <ul>
+        <!--Link buttons-->
+        <ul class="menu">
+
             <a href="index.html"><li><b><span id="bullet1">Lingfinity</span></b></li></a>
-            <a href="chooseCourses.html"><li><span id="bullet2">Courses</span></li></a>
+            <a href="courses.html"><li><span id="bullet2">Courses</span></li></a>
             <a href="https://discord.gg/6PbNDhp"><li><span id="bullet3">Discord</span></li></a>
             <a href="contact.html"><li><span id="bullet4">Contact</span></li></a>
             <a href="about.html"><li><span id="bullet5">About</span></li></a>
+
         </ul>
-        <span id="themeSwitch">
-            <img class="animate__animated" src="res/sun.png" alt="sun" id="modeImg">
-                <label class="switch">
-                    <input type="checkbox" onclick="Choice(this);changeName();">
-                    <span class="slider round"></span>
-                </label>
-            </span>
     </nav>
 
 
 <!--Title-->
-
     <div class="center">
-        <h1 id="header"><b>About</b></h1>
+        <h1 id="header">About</h1>
         <p id="abouttext">
             Lingfinity is a free language learning platform developed by Amsakan Bavan and Strahinja Lukić with the aim of improving 
             language learning and making it a more fun experience. Especially for less known languages such as Finnish & Serbian, 
@@ -44,8 +43,9 @@
         </p>
     </div>
 
+<!--Footer-->
     <footer class="footer">
-        &copy; Lingfinity September 2020
+        &copy; <b>Lingfinity</b> September 2020
     </footer>
 
 <script src="scripts/navbaranimation.js"></script>

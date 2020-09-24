@@ -1,6 +1,3 @@
-/*Nunito font*/
-@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
-
 /*General properties*/
 * {
     margin: 0;
@@ -16,20 +13,26 @@
     border-color: lightgray;
     font-weight: bold;
     font-size: 20px;
-    outline: none;
     border-width: 0px 2.5px 5px 0px;
     border-color: gray;
+    border-radius: 15px;
+    transition: .3s;
 }
 
 .button:hover {
     box-shadow: 5px 4px 3px gray;
+    text-decoration: none;
+    color: black;
     transition: 0.3s;
-    outline: none;
 }
 
 .button:active {
     background-color: lightgray;
     transform: translateY(4px);
+}
+
+.button:focus {
+    outline: none;
 }
 
 /*Properties for dark theme that are universal for all buttons*/
@@ -53,28 +56,62 @@
 
 
 
+/*Learn button on the homepage properties*/
+.learnButtonHomepage {
+    height: 70px;
+    width: 150px;
+    margin-top: 20px;
+    font-size: 22px;
+}
+
+
+
+/*Language choosing buttons in courses properties*/
+.languageButton {
+    margin: 0px 30px;
+    display: inline-block;
+    height: 160px;
+    width: 130px;
+}
+
+/*Language choosing buttons in courses flag properties*/
+.languageButton img{
+    height: 80px;
+    width: 80px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+
+
 /*Option buttons properties*/
 .answerButton {
     margin: 7px;
     height: 100px;
     width: 175px;
-    border-radius: 15px;
 }
 
 
 
-/*Learn button on the homepage properties*/
-.learnButtonHomepageLight {
-    margin-bottom: 20px;
-    border-radius: 20px;
-    height: 60px;
-    width: 200px;
-    transition: 0.3s;
+/*Check/Continue button properties on the bottom panel of the course page*/
+.panelButton {
+    margin-top: 2.5px;
+    right: 30px;
+    position: fixed;
+    opacity: 25%;
+    height: 55px;
+    width: 150px;
+    transition: 0.3s;   
 }
+
+.panelButton:hover {
+    cursor: not-allowed;
+}
+
+
 
 /*TOS and Privacy Policy button properties*/
 .iButton {
-    border-radius: 10px;
     height: 50px;
     width: 400px;
 }

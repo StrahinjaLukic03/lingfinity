@@ -21,11 +21,11 @@
         <!--Link buttons-->
         <ul class="menu">
 
-            <a href="index.html"><li><b><span id="bullet1">Lingfinity</span></b></li></a>
-            <a href="chooseCourses.html"><li><span id="bullet2">Courses</span></li></a>
-            <a href="https://discord.gg/6PbNDhp"><li><span id="bullet3">Discord</span></li></a>
-            <a href="contact.html"><li><span id="bullet4">Contact</span></li></a>
-            <a href="about.html"><li><span id="bullet5">About</span></li></a>
+            <a href="../../index.html"><li><b><span id="bullet1">Lingfinity</span></b></li></a>
+            <a href="../../courses.html"><li><span id="bullet2">Courses</span></li></a>
+            <a href="../../https://discord.gg/6PbNDhp"><li><span id="bullet3">Discord</span></li></a>
+            <a href="../../contact.html"><li><span id="bullet4">Contact</span></li></a>
+            <a href="../../about.html"><li><span id="bullet5">About</span></li></a>
 
         </ul>
     </nav>
@@ -36,35 +36,34 @@
             <!--Image implementation-->
             <img src="../../res/doggo.png" alt="Dog" class="image">
             <!--Question-->
-            <h1 id="header" class="question">What is in the picture above?</h1>
+            <h1 class="question">What is in the picture above?</h1>
         </div>
 
         <!--Answer buttons-->
         <div class="buttons">
             <div>
-                <button type="button" class="button answerButton" id="option1" onclick="eval(this)"><b class="answer">Answer 1</b></button>
-                <button type="button" class="button answerButton" id="option2" onclick="eval(this)"><b class="answer">Answer 2</b></button>
+                <button type="button" class="button answerButton" id="option1" onclick="eval(this)">Answer 1</button>
+                <button type="button" class="button answerButton" id="option2" onclick="eval(this)">Answer 2</button>
             </div>
             <!--Answer buttons 2nd row-->
             <div>
-                <button type="button" class="button answerButton" id="option3" onclick="eval(this)"><b class="answer">Answer 3</b></button>
-                <button type="button" class="button answerButton" id="option4" onclick="eval(this)"><b class="answer">Answer 4</b></button>
+                <button type="button" class="button answerButton" id="option3" onclick="eval(this)">Answer 3</button>
+                <button type="button" class="button answerButton" id="option4" onclick="eval(this)">Answer 4</button>
             </div>
         </div>
     </div>
 
     <!-- The panel at the bottom of the page-->
-    <div id="bottom" id="box">
+    <div class="panel" id="box">
         <!--Message-->
-        <p id="continueMessage">Select your answer and then press the <b>Check</b> button.</p>
+        <p class="panelMessage">Select your answer and then press the <b>Check</b> button.</p>
         <!--Check/Continue button-->
-        <button id="continueButton" class="continueButtonGlobal" onclick="checc();"><b>Check</b></button>
+        <button class="button panelButton continueButtonGlobal" onclick="checc();"><b>Check</b></button>
     </div>
 
 <!--Scripts-->
 <script src="../../scripts/navbaranimation.js"></script>
 <script src="course.js"></script>
-<script src="../../tests/test.js"></script>
 <script src="../../scripts/darkMode.js"></script>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>

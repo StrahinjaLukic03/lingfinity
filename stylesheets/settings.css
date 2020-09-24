@@ -1,66 +1,14 @@
-/*Nunito font*/
-@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
-
-/*General*/
-.center {
-    padding: 0;
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-h2 {
-    color: black;
-    font-family: Nunito, Calibri;
+.header{
+    text-align: left;
+    z-index: 2;
     text-shadow: 1.5px 2px 2.5px #00000069;
     padding-bottom: 15px;
 }
 
-#abouttext {
-    font-family: Nunito, Calibri;
-    text-shadow: 1.5px 2px 2.5px #00000069;
-    font-size: 25px;
-}
-
-#header{
-    z-index: 2;
-}
-
-/*Footer*/
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 2%;
-    width: 100%;
-    text-align: center;
-    font-family: Nunito, Calibri;
-    transition: 0.3s;
-}
-
-.footer:hover {
-    text-shadow: 3px 3px 10px white;
-}
-
-
-
-
 /*List styling*/
 .center li {
+    text-align: left;
     padding: 0;
-    margin: 5px 0px;
-    list-style-type: none;
-    text-decoration-style: none;
-    font-family: Nunito, Calibri;
+    margin: 10px 0px;
     font-size: 20px;
 }
-
-/*Information buttons*/
-.iButton {
-    border-radius: 10px;
-    height: 50px;
-    width: 400px;
-}
-
-/*List items*/

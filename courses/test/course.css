@@ -1,47 +1,29 @@
-/*Nunito font*/
-@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
-
-/*General*/
-.center {
-    padding: 0;
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
-
-#header{
-    color: black;
-    font-size: 15px;
-    text-shadow: 1.5px 2px 2.5px #00000069;
-    z-index: 2;
-    font-size: 20px;
-}
-
-/*Buttons with answers*/
+/*The image question is asked about properties*/
 .image {
     height: 200px;
     width: 250px;
 }
 
+/*Question text properties*/
 .question {
     margin-top: 5%;
     font-weight: bold;
+    font-size: 22.5px;
 }
 
+/*Answer button properties*/
 .answer {
     font-size: 22.5px;
 }
 
+/*Properties for a disabled button*/
 .disable {
     opacity: 0.6;
     cursor: not-allowed;
 }
 
-/*The continue thingies at the bottom of the page*/
-#bottom {
+/*The properties of the panel on the bottom of the page*/
+.panel {
     font-family: Nunito, Calibri;
     font-size: 22px;
     height: 100px;
@@ -53,23 +35,17 @@
     text-align: center;
     display: inline-flex;
     padding: 20px;
+    color: black;
 }
 
-#continueMessage {
+/*The properties of the message in a panel on the bottom of the page*/
+.panelMessage {
     bottom: 20px;
     left: 20px;
     position: fixed;
 }
 
-#continueButton {
-    right: 20px;
-    position: fixed;
-    opacity: 25%;
-    cursor: not-allowed;
-    transition: 0.3s;   
-    outline: none;
-}
-
+/*The properties of the answer button*/
 .correct {
     background-color: "#5EFF19";
 }
