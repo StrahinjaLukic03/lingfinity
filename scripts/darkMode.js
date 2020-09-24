@@ -20,12 +20,8 @@ function Choice(checkbox){
 	box = checkbox;
 	dEnabled = checkbox.checked;
 	if(dEnabled){
-		document.getElementById("alpha").src = "res/logoWhite.png";
-		element.className = "dark-mode";
+		element.className = "bodyDark";
 		document.getElementById("header").style.color = "#d1d1d1";
-		document.getElementById("modeImg").src = "res/moon.png";
-		document.getElementById("modeImg").className = "animate__animated animate__flipInX";
-		document.getElementById("modeImg").style.filter = "invert(100%)";
 		document.getElementById("bar").style.backgroundColor = "black";
 		document.getElementById("bar").id = "darkBar";
 		bullets.forEach(switchColor);
@@ -36,16 +32,12 @@ function Choice(checkbox){
 	}
 
 	else{
-		document.getElementById("alpha").src = "res/logoBlack.png";
-		element.className = "light-mode";
+		element.className = "bodyLight";
 		document.getElementById("header").style.color = "black";
-		document.getElementById("modeImg").src = "res/sun.png";
-		document.getElementById("modeImg").className = "animate__animated animate__flipInY";
-		document.getElementById("modeImg").style.filter = "invert(0%)";
 		document.getElementById("darkBar").id = "bar";
 		document.getElementById("bar").style.backgroundColor = "white";
 		bullets.forEach(switchColor);
-		document.getElementById("contButton").className = "continue";
+		document.getElementsByClassName("learnButtonHomepage").className = "continue";
 		buttons.forEach(buttonSwitch);
 		options.forEach(switchClasses);
 	}
