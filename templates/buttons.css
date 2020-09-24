@@ -55,7 +55,10 @@
 
 /*Option buttons properties*/
 .answerButton {
-    margin-bottom: 20px;
+    margin: 7px;
+    height: 100px;
+    width: 175px;
+    border-radius: 15px;
 }
 
 
