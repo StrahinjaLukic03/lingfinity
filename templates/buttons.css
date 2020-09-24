@@ -17,7 +17,8 @@
     font-weight: bold;
     font-size: 20px;
     outline: none;
-    border-style: none;
+    border-width: 0px 2.5px 5px 0px;
+    border-color: gray;
 }
 
 .button:hover {
@@ -53,7 +54,7 @@
 
 
 /*Option buttons properties*/
-.option {
+.answerButton {
     margin-bottom: 20px;
 }
 
@@ -63,7 +64,6 @@
 .learnButtonHomepageLight {
     margin-bottom: 20px;
     border-radius: 20px;
-    border-width: 0px 2.5px 5px 0px;
     height: 60px;
     width: 200px;
     transition: 0.3s;
