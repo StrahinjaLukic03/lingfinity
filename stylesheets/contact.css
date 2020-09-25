@@ -2,21 +2,21 @@
     text-shadow: 1.5px 2px 2.5px #00000069;
 }
 
-#header {
+.contactHeader {
     font-size: 40px;
     padding-bottom: 15px;
 }
 
-#contacttext {
+.contactText {
     font-size: 25px;
 }
 
-#contacttext a {
+.contactText a {
     color: #5318a0;
     transition: 0.3s;
 }
 
-#contacttext a:hover {
+.contactText a:hover {
     color: #7a3dca;
     text-shadow: 3px 3px 10px #7a3dca;
 }

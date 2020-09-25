@@ -2,14 +2,14 @@
     text-shadow: 1.5px 2px 2.5px #00000069;
 }
 
-#header{
+.aboutHeader{
     z-index: 2;
     font-weight: bold;
     font-size: 40px;
     padding-bottom: 15px;
 }
 
-#abouttext {
+.aboutText {
     font-family: Nunito, Calibri;
     font-size: 25px;
 }

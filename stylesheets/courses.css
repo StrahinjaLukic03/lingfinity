@@ -1,12 +1,9 @@
-/*Nunito font*/
-@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
-
-#header {
+.chooseLanguageHeader {
     z-index: 2;
     font-size: 30px;
 }
 
-#container {
+.chooseLanguageContainer {
     padding-top: 30px;
     text-align: center;
 }

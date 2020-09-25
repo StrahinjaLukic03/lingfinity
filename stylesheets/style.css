@@ -1,5 +1,5 @@
 /*The welcome title properties*/
-#welcomeTitle {
+.welcomeTitle {
     color: black;
     text-shadow: 1.5px 2px 2.5px #00000069;
     z-index: 2;
