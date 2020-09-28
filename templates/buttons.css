@@ -14,7 +14,6 @@
     font-weight: bold;
     font-size: 20px;
     border-width: 0px 2.5px 5px 0px;
-    border-color: gray;
     border-radius: 15px;
     transition: .3s;
 }
@@ -23,7 +22,7 @@
     box-shadow: 5px 4px 3px gray;
     text-decoration: none;
     color: black;
-    transition: 0.3s;
+    transition: .3s;
 }
 
 .button:active {
@@ -44,7 +43,7 @@
 
 .buttonDark:hover {
     box-shadow: 5px 4px 3px #2c2c2c;
-    transition: 0.3s;
+    transition: .3s;
 }
 
 .buttonDark:active {
@@ -101,7 +100,7 @@
     opacity: 25%;
     height: 55px;
     width: 150px;
-    transition: 0.3s;   
+    transition: .3s;   
 }
 
 .panelButton:hover {
