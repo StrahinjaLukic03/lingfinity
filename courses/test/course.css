@@ -35,12 +35,11 @@
     text-align: center;
     display: inline-flex;
     padding: 20px;
-    color: black;
 }
 
 /*The properties of the message in a panel on the bottom of the page*/
 .panelMessage {
-    bottom: 20px;
+    bottom: 18px;
     left: 20px;
     position: fixed;
 }

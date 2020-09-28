@@ -12,13 +12,13 @@
 
 /*General body properties*/
 .bodyLight {
-    background-color: #111111;
-    color: white;
+    background-color: #f1f1f1;
+    color: black;
 }
 
 .bodyDark {
-    background-color: #f1f1f1;
-    color: black;
+    background-color: #111111;
+    color: white;
 }
 
 /*Centers elements in the middle of the page*/
