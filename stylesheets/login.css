@@ -1,0 +1,19 @@
+.center {
+    border: 3px solid purple;
+    border-radius: 10px;
+    height: 200px;
+    position: relative;
+    display: block;
+}
+
+.email {
+    width: 100%;
+    float: left;
+}
+
+.password {
+    width: 100%;
+    float: left;
+}
+
+/*This fucking piece of shit doesn't want to get underneath each other*/
