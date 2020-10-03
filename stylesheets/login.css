@@ -1,6 +1,4 @@
 .center {
-    border: 3px solid purple;
-    border-radius: 10px;
     height: 200px;
     position: relative;
     display: block;
@@ -17,3 +15,31 @@
 }
 
 /*This fucking piece of shit doesn't want to get underneath each other*/
+input[type=email], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 10px;
+    outline-color: #5318a0;
+    font-size: 20px;
+}
+
+input[type=email], input[type=password]:focus {
+    box-shadow: 0 0 5px #7a3dca;
+}
+
+.createNewAcc {
+    margin-top: 10px;
+}
+
+.createNewAcc a {
+    color: #5318a0;
+    font-weight: bold;
+}
+
+.createNewAcc a:hover {
+    color: #5318a0;
+}

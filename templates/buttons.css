@@ -113,3 +113,15 @@
     height: 50px;
     width: 400px;
 }
+
+
+
+/*Properties of the login button*/
+.loginButton {
+    padding: 14px 20px;
+    margin-top: 8px;
+    width: 50%;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 10px;
+}
