@@ -1,7 +1,7 @@
 .center {
+    width: 600px;
     position: relative;
     display: block;
-    width: 600px;
 }
 
 .center h1 {
@@ -9,7 +9,7 @@
     font-weight: bold;
 }
 
-input[type=email], input[type=password] {
+input[type="text"], input[type=email], input[type=password] {
     width: 80%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -19,6 +19,11 @@ input[type=email], input[type=password] {
     border-radius: 5px;
     font-size: 20px;
     outline-color: #5318a0;
+}
+
+input[type="password"] {
+    width: 39%;
+    margin: 8px 5px;
 }
 
 .bottomLinks {
