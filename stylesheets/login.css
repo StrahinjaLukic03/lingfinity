@@ -15,9 +15,9 @@ input[type=email], input[type=password] {
     display: inline-block;
     border: 1px solid #ccc;
     box-sizing: border-box;
-    border-radius: 10px;
+    border-radius: 5px;
     font-size: 20px;
-    outline: none;
+    outline-color: #5318a0;
 }
 
 .bottomLinks {
@@ -31,5 +31,5 @@ input[type=email], input[type=password] {
 }
 
 .bottomLinks a:hover {
-    color: #5318a0;
+    color: #7a3dca;
 }
