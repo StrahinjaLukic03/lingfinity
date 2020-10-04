@@ -29,9 +29,11 @@ input[type=email], input[type=password] {
     color: #5318a0;
     font-weight: bold;
     margin: 0 10px;
+    transition: .3s;
 }
 
 .bottomLinks a:hover {
     color: #7a3dca;
     text-shadow: 1px 1px 3px #7a3dca;
+    transition: .3s;
 }
