@@ -1,8 +1,3 @@
-// Switch logic
-
-var box = null;
-var bullets = ["bullet1", "bullet2", "bullet3", "bullet4", "bullet5"];
-
 // idk what is this
 var clicked = false;
 
@@ -37,45 +32,6 @@ function putAnswer(b){
 var clicked = false;
 var oldButton = "";
 
-// Some big brain function for dark and white theme
-function eval(b) {
-
-	if(clicked){
-		var boo = document.getElementById("theH");
-		if(boo.className == "dark-mode"){
-			document.getElementById(oldButton).style = "background-color: black;"
-			oldButton = b.id;
-			
-		}
-
-		else{
-			document.getElementById(oldButton).style = "background-color: white;";
-			oldButton = b.id;
-		}
-		
-	
-	}
-
-	else{
-		clicked = true;
-		oldButton = b.id;
-	}
-
-
-	if(document.getElementById("theH").className == "dark-mode"){
-		b.style.backgroundColor = "grey";
-	}
-
-	else{
-		b.style.backgroundColor = "lightgrey";
-	}
-	
-
-	selected = b.id;
-
-	document.getElementById("continueButton").style = "cursor: pointer; opacity:100%; background-color: #5318A0; color: white; border-color: #671ec8;";
-
-}
 
 // Function that makes the answer buttons unclickable after the answer is checked
 function makeUnclickable(buttonName){
@@ -103,42 +59,13 @@ function getAnswerBool(t){
 	}
 }
 
-// The storage of the button tables and it's status
-const answers = [
-	{
-		answer: [
-			{text: 'пас\npas', correct: true}, //dog
-			{text: 'мачка\nmačka', correct: false}, //cat
-			{text: 'жирафа\nžirafa', correct: false}, //giraffe
-			{text: 'мајмун\nmajmun', correct: false} //monkey
-		]
-	},
-
-	{
-		answer: [
-			{text: 'свиња\nsvinja', correct: false}, //pig
-			{text: 'кокошка\nkokoška', correct: false}, //chicken
-			{text: 'овца\novca', correct: true}, //sheep
-			{text: 'јеж\njež', correct: false} //hedgehog
-		]
-	},
-
-	{
-		answer: [
-			{text: 'крава\nkrava', correct: false}, //cow
-			{text: 'коњ\nkonj', correct: false}, //horse
-			{text: 'миш\nmiš', correct: true}, //mouse
-			{text: 'птица\nptica', correct: false} //bird
-		]
-	}
-	
-];
 
 // Show answer obviously
 showAnswer();
 
 // Explain this mess dud
 var Cclicked = false;
+
 function checc(){
 	var theText = document.getElementById(selected).textContent;
 	var correct = getAnswerBool(theText);
