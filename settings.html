@@ -53,7 +53,7 @@
                 Sound effects
                 
                 <label class="switch sound">
-                    <input type="checkbox" onclick="themeClick(this);"></input>
+                    <input type="checkbox" onclick="console.log('helvättä');"></input>
                     <span class="slider round"></span>
                 </label>
 
@@ -67,7 +67,7 @@
                 Speaking exercises
 
                 <label class="switch accessibility">
-                    <input type="checkbox" onclick="themeClick(this);"></input>
+                    <input type="checkbox" onclick="console.log('paksu');"></input>
                     <span class="slider round"></span>
                 </label>
 
@@ -77,7 +77,7 @@
                 Listening exercises
             
                 <label class="switch accessibility">
-                    <input type="checkbox" onclick="themeClick(this);"></input>
+                    <input type="checkbox" onclick="console.log('musiikki');"></input>
                     <span class="slider round"></span>
                 </label>
 
@@ -87,8 +87,8 @@
         <h2 class="settingsHeader"><b>Information</b></h2>
 
         <ul>
-            <li><button class="button iButton">Terms of Use</button></li>
-            <li><button class="button iButton">Privacy Policy</button></li>
+            <li><button class="button iButton" id="ToU">Terms of Use</button></li>
+            <li><button class="button iButton" id="PP">Privacy Policy</button></li>
         </ul>
 
     </div>

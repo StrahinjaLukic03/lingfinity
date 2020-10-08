@@ -22,16 +22,12 @@ function getElements(){
 
 
 function switchTheme(t){
+
+    
     var elementCollection = getElements();
     var nCol = t.getNameCollection();
+    var bA = [document.getElementById("ToU"), document.getElementById("PP")];
     let i = 0;
-
-    var bA = document.getElementsByClassName("iButton");
- 
-
-    bA[0].className = nCol[5];
-    bA[1].className = nCol[5];    
-
 
     while(i < 4){
         elementCollection[i].className = nCol[i+1];
@@ -39,4 +35,8 @@ function switchTheme(t){
     }
 
     i = 0;
+
+
+    bA[0].className = nCol[5];
+    bA[1].className = nCol[5];
 }
