@@ -19,7 +19,7 @@
 }
 
 .button:hover {
-    box-shadow: 5px 4px 3px gray;
+    box-shadow: 5px 4px gray;
     text-decoration: none;
     color: black;
     transition: .3s;
@@ -42,7 +42,7 @@
 }
 
 .buttonDark:hover {
-    box-shadow: 5px 4px 3px #2c2c2c;
+    box-shadow: 5px 4px #2c2c2c;
     transition: .3s;
 }
 
