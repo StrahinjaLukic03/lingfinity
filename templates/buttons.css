@@ -15,6 +15,7 @@
     font-size: 20px;
     border-width: 0px 2.5px 5px 0px;
     border-radius: 15px;
+    cursor: pointer;
     transition: .3s;
 }
 
@@ -106,7 +107,12 @@
     cursor: not-allowed;
 }
 
-
+/*Check button properties*/
+.checkButton {
+    margin-top: 30px;
+    height: 50px;
+    width: 150px;
+}
 
 /*TOS and Privacy Policy button properties*/
 .iButton {
