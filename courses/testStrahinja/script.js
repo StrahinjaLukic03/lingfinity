@@ -1,20 +1,13 @@
-function Check() {
-    var sam = document.getElementById("sam").value;
-    if(sam == "sam")
-        document.getElementById("sam").style.borderColor = "green";
+function Help(tekst) {
+    var extractedVal = document.getElementsByClassName(tekst).value;
+    if(extractedVal == "tekst")
+        document.getElementByClassName(extractedVal).style.borderColor = "#07e04c";
     else
-        document.getElementById("sam").style.borderColor = "red";
+        document.getElementByClassName(extractedVal).style.borderColor = "red";
 
-    var zoves = document.getElementById("zoves").value;
-    if(zoves == "zoveš" || zoves == "zoves")
-        document.getElementById("zoves").style.borderColor = "green";
-    else
-        document.getElementById("zoves").style.borderColor = "red";
+    return tekst;
+}
 
-    var sta = document.getElementById("sta").value;
-    if(sta == "šta" || sta == "sta" || sta == "Šta" || sta == "Sta")
-        document.getElementById("sta").style.borderColor = "green";
-    else
-        document.getElementById("sta").style.borderColor = "red";
-
+function Check(tekst) {
+    Help(tekst);
 }

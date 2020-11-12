@@ -3,7 +3,7 @@
 }
 
 .leave a {
-    color: darkred;
+    color: rgb(197, 6, 6);
     font-weight: bold;
     font-size: 30px;
     margin-left: 50px;
@@ -12,6 +12,12 @@
 
 .leave a:hover {
     text-shadow: 2px 2px 10px red;
+}
+
+#exerciseTitle {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 30px;
 }
 
 input {
