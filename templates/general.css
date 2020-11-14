@@ -10,13 +10,14 @@
     text-decoration: none;
 }
 
-/*General body properties*/
-.bodyLight {
-    background-color: #f1f1f1;
-    color: black;
+/*Properties of highlighted text*/
+::selection {
+    color: white;
+    background-color: #7a3dca;
 }
 
-.bodyDark {
+/*General body properties*/
+.body {
     background-color: #111111;
     color: white;
 }
@@ -38,6 +39,8 @@
     bottom: 2%;
     width: 100%;
     text-align: center;
+    cursor: context-menu;
+    user-select: none;
     transition: .3s;
 }
 

@@ -1,16 +1,17 @@
-/*Navbar light theme*/
+/*Navbar*/
 .navbar {
     margin: 20px;
     border-radius: 15px;
-    background-color: white;
+    background-color: black;
     font-size: 15px;
     position: fixed;
     top: 0;
+    user-select: none;
     transition: top 0.3s;
     z-index: 1;
 }
 
-/*The div with the link buttons light theme*/
+/*The div menu with the link buttons*/
 .menu {
     margin: 0;
     padding: 0;
@@ -26,36 +27,14 @@
 .menu a {
     padding: 10px;
     transition: ease 0.5s;
-    color: black;
+    color: white;
     display: block;
 
 }
 
 .menu a:hover {
-    background-color: rgb(231, 231, 231);
+    background-color: rgb(36, 36, 36);
     border-radius: 15px;
     cursor: pointer;
-    color: black;
-}
-
-/*Navbar dark theme*/
-.navbarDark {
-    background-color: black;
-}
-
-/*The div with the link buttons dark theme*/
-.menuDark a {
     color: white;
-}
-
-.menuDark a:hover {
-    background-color: rgb(231, 231, 231); /*find a value for this color (might just be gray)*/
-    color: white;
-}
-
-
-
-/*Hover for darkMode Bar*/     /*----------What is this for again?----------(it was for hovering over menu points in darkTheme)*/
-#darkBar ul li a:hover{
-    background-color: rgb(36, 36, 36);
 }

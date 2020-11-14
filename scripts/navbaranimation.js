@@ -1,35 +1,19 @@
-// When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar
-var prevScrollpos = window.pageYOffset;
-var currentScrollPos;
-var barID = "bar";
-var checcc = false;
+// When the user scrolls down it hide the navbar. When the user scrolls up, show the navbar
+var prevScrollPosition = window.pageYOffset;
+var currentScrollPosition;
+var navbarID = "bar";
 
-// This is confusing pls explain
 window.onscroll = function() {
   
-  currentScrollPos = window.pageYOffset;
-  if(prevScrollpos < currentScrollPos){
-    document.getElementById(barID).style.top = "-100px";
-    prevScrollpos = currentScrollPos;
+  currentScrollPosition = window.pageYOffset;
+  if(prevScrollPosition < currentScrollPosition){
+    document.getElementById(navbarID).style.top = "-100px";
+    prevScrollPosition = currentScrollPosition;
   }
 
   else{
-    var x = currentScrollPos.toString().concat("px");
-    document.getElementById(barID).style.top = x;
-    prevScrollpos = currentScrollPos;
+    var x = currentScrollPosition.toString().concat("px");
+    document.getElementById(navbarID).style.top = x;
+    prevScrollPosition = currentScrollPosition;
   }
-   
-}
-// hmmm
-function changeName(){
-  if(checcc){
-    barID = "bar";
-    checcc = false;
-  }
-
-  else{
-    barID = "darkBar";
-    checcc = true;
-  }
-
 }

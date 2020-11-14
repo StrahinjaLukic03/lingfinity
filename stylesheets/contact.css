@@ -20,3 +20,13 @@
     color: #7a3dca;
     text-shadow: 3px 3px 10px #7a3dca;
 }
+
+.DSTitle {
+    color: rgb(219, 164, 255);
+    transition: .3s;
+    cursor: pointer;
+}
+
+.DSTitle:hover {
+    color: rgb(153, 0, 255);
+}
