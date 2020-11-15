@@ -14,11 +14,11 @@ input[type="text"], input[type=email], input[type=password] {
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
-    border: 1px solid #ccc;
+    border: 1px solid rgb(36, 36, 36);
     box-sizing: border-box;
     border-radius: 5px;
     font-size: 20px;
-    outline-color: #5318a0;
+    outline: none;
     background-color: black;
     color: white;
 }
