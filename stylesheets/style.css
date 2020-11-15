@@ -8,19 +8,16 @@
 
 /*Centered elements on the page in a div*/
 .center {
-    padding: 0;
-    margin: 0;
+    height: 400px;
+    width: 790px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    display: inline-block;
 }
 
 /*Properties of the left div*/
 .left {
-    margin-top: 10%;
-    margin-left: 23%;
     margin-right: 50px;
     float: left;
     width: 400px;
@@ -37,7 +34,6 @@
 /*Properties of the right div*/
 .right {
     float: left;
-    margin-right: 10%;
-    margin-top: 16.8%;
+    margin-top: 103px;
     user-select: none;
 }

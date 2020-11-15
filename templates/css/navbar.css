@@ -6,7 +6,6 @@
     position: fixed;
     top: 0;
     user-select: none;
-    transition: top 0.3s;
     z-index: 1;
     width: 100%;
 }
@@ -26,10 +25,9 @@
 
 .menu a {
     padding: 10px;
-    transition: ease 0.5s;
     color: white;
     display: block;
-
+    transition: .3s;
 }
 
 .menu a:hover {

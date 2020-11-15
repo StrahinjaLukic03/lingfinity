@@ -39,6 +39,11 @@
     font-size: 22px;
 }
 
+/*Create an Account button properties*/
+.createAnAccountHP {
+    background-image: linear-gradient(to right, rgb(89, 33, 221), rgb(204, 21, 204));
+}
+
 /*Language choosing buttons in courses properties*/
 .languageButton {
     margin: 0px 30px;
