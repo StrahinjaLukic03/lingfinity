@@ -1,43 +1,69 @@
 function Check() {
+    var i = 0;
+    var j = 0;
+
     var sam = document.getElementById("sam").value;
-    if(sam == "sam")
+    j++;
+    if(sam == "sam") {
         document.getElementById("sam").style.borderColor = "green";
+        i++;
+    }
     else
         document.getElementById("sam").style.borderColor = "red";
 
     var ti = document.getElementById("ti").value;
-    if(ti == "ti")
+    j++;
+    if(ti == "ti") {
         document.getElementById("ti").style.borderColor = "green";
+        i++;
+    }
     else
         document.getElementById("ti").style.borderColor = "red";
 
     var se = document.getElementById("se").value;
-    if(se == "se")
+    j++;
+    if(se == "se") {
         document.getElementById("se").style.borderColor = "green";
+        i++
+    }
     else
         document.getElementById("se").style.borderColor = "red";
 
     var si = document.getElementById("si").value;
-    if(si == "si")
+    j++;
+    if(si == "si") {
         document.getElementById("si").style.borderColor = "green";
+        i++;
+    }
     else
         document.getElementById("si").style.borderColor = "red";
     
     var sam2 = document.getElementById("sam2").value;
-    if(sam2 == "sam")
+    j++;
+    if(sam2 == "sam") {
         document.getElementById("sam2").style.borderColor = "green";
+        i++;
+    }
     else
         document.getElementById("sam2").style.borderColor = "red";
         
     var ti2 = document.getElementById("ti2").value;
-    if(ti2 == "ti")
+    j++;
+    if(ti2 == "ti") {
         document.getElementById("ti2").style.borderColor = "green";
+        i++;
+    }
     else
         document.getElementById("ti2").style.borderColor = "red";
        
     var sam3 = document.getElementById("sam3").value;
-    if(sam3 == "sam")
+    j++;
+    if(sam3 == "sam") {
         document.getElementById("sam3").style.borderColor = "green";
+        i++;
+    }
     else
         document.getElementById("sam3").style.borderColor = "red";
+    
+    document.getElementById("amount").innerHTML = i + "/" + j + " correct";
 }
