@@ -31,6 +31,7 @@
 /*Properties of the big logo*/
 .left .logoBig {
     width: 400px;
+    pointer-events: none;
 }
 
 /*Properties of the right div*/
