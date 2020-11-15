@@ -5,7 +5,7 @@
     border-color: rgb(36, 36, 36);
     font-weight: bold;
     font-size: 20px;
-    border-width: 0px 2.5px 5px 0px;
+    border: none;
     border-radius: 15px;
     cursor: pointer;
     user-select: none;
@@ -13,7 +13,7 @@
 }
 
 .button:hover {
-    box-shadow: 5px 4px #2c2c2c;
+    box-shadow: 5px 4px rgb(36, 36, 36);
     text-decoration: none;
     color: white;
     transition: .3s;
