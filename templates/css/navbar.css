@@ -1,14 +1,14 @@
 /*Navbar*/
 .navbar {
-    margin: 20px;
-    border-radius: 15px;
     background-color: black;
+    padding: 5px;
     font-size: 15px;
     position: fixed;
     top: 0;
     user-select: none;
     transition: top 0.3s;
     z-index: 1;
+    width: 100%;
 }
 
 /*The div menu with the link buttons*/
