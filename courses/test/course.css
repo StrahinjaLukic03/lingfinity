@@ -1,3 +1,8 @@
+/*The selection properties for all elements*/
+* {
+    user-select: none;
+}
+
 /*The image question is asked about properties*/
 .image {
     height: 200px;
@@ -34,17 +39,16 @@
     margin: 0 auto;
     text-align: center;
     display: inline-flex;
-    padding: 20px;
 }
 
 /*The properties of the message in a panel on the bottom of the page*/
 .panelMessage {
-    bottom: 18px;
+    bottom: 35px;
     left: 20px;
     position: fixed;
 }
 
 /*The properties of the answer button*/
 .correct {
-    background-color: "#5EFF19";
+    background-color: #5EFF19;
 }

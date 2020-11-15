@@ -31,15 +31,13 @@
 
 
 
-/*Learn button on the homepage properties*/
-.learnButtonHomepage {
-    height: 70px;
-    width: 150px;
+/*Account buttons on the homepage properties*/
+.accountButtonsHP {
+    height: 50px;
+    width: 100%;
     margin-top: 20px;
     font-size: 22px;
 }
-
-
 
 /*Language choosing buttons in courses properties*/
 .languageButton {
@@ -70,7 +68,7 @@
 
 /*Check/Continue button properties on the bottom panel of the course page*/
 .panelButton {
-    margin-top: 2.5px;
+    margin-top: 22px;
     right: 30px;
     position: fixed;
     opacity: 25%;

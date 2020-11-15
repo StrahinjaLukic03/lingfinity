@@ -19,6 +19,8 @@ input[type=email], input[type=password] {
     border-radius: 5px;
     font-size: 20px;
     outline-color: #5318a0;
+    background-color: black;
+    color: white;
 }
 
 .bottomLinks {

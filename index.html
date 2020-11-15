@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lingfinity - Homepage</title>
-    <link rel="icon" href="res/logoSmall.png" type="image/x-icon">
+    <link rel="icon" href="images/logos/logoSmall.png" type="image/x-icon">
     <link rel="stylesheet" href="stylesheets/style.css"> <!--Don't forget to change depending on the page-->
     <link rel="stylesheet" href="templates/css/general.css">
     <link rel="stylesheet" href="templates/css/navbar.css">
@@ -14,7 +14,7 @@
 <body class="body">
 
     <!--Navbar-->
-    <nav class="navbar animate__animated animate__fadeInDown">
+    <nav class="navbar">
 
         <!--Link buttons-->
         <ul class="menu">
@@ -29,20 +29,31 @@
         </ul>
     </nav>
 
-    <!--Elements in the middle of the page-->
-    <div class="center">
-        <!--Title-->
-        <div>
-            <h1 class="welcomeTitle">Welcome to the homepage of <b>Lingfinity</b>!</h1>
+    <!--Elements of the page-->
+        <div class="left">
+            <img class="logoBig" src="images/logos/logoBig.png" alt="Logo">
         </div>
 
-        <!--Continue button-->
-        <a href="courses.html">
-            <button type="button" class="button learnButtonHomepage">
-                <b>Learn!</b>
-            </button>
-        </a>
-    </div>
+        <div class="right">
+            <!--Title-->
+            <div>
+                <h1 class="welcomeTitle">Learn languages for free.</h1>
+            </div>
+
+            <!--Create account button-->
+            <a href="createAccount.html">
+                <button type="button" class="button accountButtonsHP">
+                    Create an Account
+                </button>
+            </a>
+            <br>
+            <!--Login button-->
+            <a href="login.html">
+                <button type="button" class="button accountButtonsHP">
+                    I Already Have an Account
+                </button>
+            </a>
+        </div>
     
 </body>
 </html>

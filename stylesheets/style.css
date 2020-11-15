@@ -3,7 +3,7 @@
     color: white;
     text-shadow: 1.5px 2px 2.5px #ffffff69;
     z-index: 2;
-    font-size: 36px;
+    font-size: 30px;
 }
 
 /*Centered elements on the page in a div*/
@@ -15,4 +15,28 @@
     left: 50%;
     transform: translate(-50%, -50%);
     display: inline-block;
+}
+
+/*Properties of the left div*/
+.left {
+    margin-top: 10%;
+    margin-left: 23%;
+    margin-right: 50px;
+    float: left;
+    width: 400px;
+    height: 400px;
+    user-select: none;
+}
+
+/*Properties of the big logo*/
+.left .logoBig {
+    width: 400px;
+}
+
+/*Properties of the right div*/
+.right {
+    float: left;
+    margin-right: 10%;
+    margin-top: 16.8%;
+    user-select: none;
 }
