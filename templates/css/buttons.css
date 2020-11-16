@@ -39,8 +39,8 @@
     font-size: 22px;
 }
 
-/*Create an Account button properties*/
-.createAnAccountHP {
+/*Gradient button properties*/
+.gradientButton {
     background-image: linear-gradient(to right, rgb(89, 33, 221), rgb(204, 21, 204));
 }
 
@@ -76,23 +76,9 @@
     margin-top: 22px;
     right: 30px;
     position: fixed;
-    opacity: 25%;
     height: 55px;
     width: 150px;
     transition: .3s;   
-}
-
-.panelButton:hover {
-    cursor: not-allowed;
-}
-
-
-
-/*Check button properties*/
-.checkButton {
-    margin-top: 30px;
-    height: 50px;
-    width: 150px;
 }
 
 

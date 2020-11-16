@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Serbian - Exercise 1</title>
     <link rel="icon" href="../../../images/logos/logoSmall.png" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../../../templates/css/exercise.css">
     <link rel="stylesheet" href="../../../templates/css/general.css">
     <link rel="stylesheet" href="../../../templates/css/buttons.css">
 </head>
@@ -20,11 +20,14 @@
         Ćao, zovem <input type="text" id="se"> Marina. Odakle <input type="text" id="si">?
         <br>
         Ja <input type="text" id="sam2"> iz Niša, <input type="text" id="ti2">? - O, iz Beograda, bila <input type="text" id="sam3"> u Nišu na ekskurziji!
-        <br>
-        <button class="button checkButton" onclick="Check();">Check</button>
-        <br>
-        <br>
-        <p id="amount"></p>
+    </div>
+
+    <!-- The panel at the bottom of the page-->
+    <div class="panel">
+        <!--Message-->
+        <p class="panelMessage" id="panelMessage">Enter answers and then press the <b>Check</b> button.</p>
+        <!--Check/Continue button-->
+        <button class="button panelButton continueButtonGlobal gradientButton" onclick="Check();"><b>Check</b></button>
     </div>
 </body>
 <script src="script.js"></script>

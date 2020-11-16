@@ -65,5 +65,5 @@ function Check() {
     else
         document.getElementById("sam3").style.borderColor = "red";
     
-    document.getElementById("amount").innerHTML = i + "/" + j + " correct";
+    document.getElementById("panelMessage").innerText = "You answered " + i + "/" + j + " correctly.";
 }

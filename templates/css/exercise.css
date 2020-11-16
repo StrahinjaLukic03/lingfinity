@@ -45,3 +45,24 @@ input:focus {
 .center {
     width: 1000px;
 }
+
+/*The properties of the panel on the bottom of the page*/
+.panel {
+    font-family: Nunito, Calibri;
+    font-size: 22px;
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    bottom: 0;
+    position: absolute;
+    margin: 0 auto;
+    text-align: center;
+    display: inline-flex;
+}
+
+/*The properties of the message in a panel on the bottom of the page*/
+.panelMessage {
+    bottom: 35px;
+    left: 20px;
+    position: fixed;
+}
