@@ -40,3 +40,8 @@ input {
 input:focus {
     border-bottom: solid 4px white;
 }
+
+/*Additional center div properties*/
+.center {
+    width: 1000px;
+}
