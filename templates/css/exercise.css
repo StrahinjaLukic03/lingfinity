@@ -17,9 +17,19 @@
     text-shadow: 2px 2px 10px red;
 }
 
+.exerciseTitle {
+    display: inline-flex;
+}
+
+.exerciseIcon {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+}
+
 #exerciseTitle {
     font-weight: bold;
-    font-size: 18px;
+    font-size: 25px;
     margin-bottom: 30px;
 }
 

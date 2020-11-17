@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - 2</title>
+
+    <!--CSS liked files-->
+    <link rel="icon" href="../../../images/logos/logoSmall.png" type="image/x-icon">
+    <link rel="stylesheet" href="../../../templates/css/exercise.css">
+    <link rel="stylesheet" href="../../../templates/css/general.css">
+    <link rel="stylesheet" href="../../../templates/css/buttons.css">
+</head>
+<body class="body">
+    <!--Leave button-->
+    <div class="leave">
+        <a href="../../../index.html" title="Leave">X</a>
+    </div>
+
+    <!--Content in the center of the page-->
+    <div class="center">
+
+        <!--Exercise title and icon-->
+        <div class="exerciseTitle">
+            <img src="../../../images/course/icons/sparkles.png" class="exerciseIcon">
+            <p id="exerciseTitle">Which one of these is a dog?</p>
+        </div>
+
+        <!--Answer buttons-->
+        <div class="buttons">
+
+            <div>
+                <a href="#" class="button buttons2">
+                    <img src="../../../images/course/cat.png">
+                        kissa
+                </a>
+                
+                <a href="#" class="button buttons2">
+                    <img src="../../../images/course/dog.png">
+                        koira
+                </a>
+            </div>
+
+            <div>
+                <a href="#" class="button buttons2">
+                    <img src="../../../images/course/rabbit.png">
+                        kani
+                </a>
+                
+                <a href="#" class="button buttons2">
+                    <img src="../../../images/course/bird.png">
+                        lintu
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- The panel at the bottom of the page-->
+    <div class="panel">
+        <!--Message-->
+        <p class="panelMessage" id="panelMessage">Choose the correct answer and then press the <b>Check</b> button.</p>
+        <!--Check/Continue button-->
+        <button class="button panelButton continueButtonGlobal gradientButton" onclick="Check();"><b>Check</b></button>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

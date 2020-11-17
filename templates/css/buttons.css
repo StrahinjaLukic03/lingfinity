@@ -39,10 +39,14 @@
     font-size: 22px;
 }
 
+
+
 /*Gradient button properties*/
 .gradientButton {
     background-image: linear-gradient(to right, #22128E, #9E1CB1);
 }
+
+
 
 /*Language choosing buttons in courses properties*/
 .languageButton {
@@ -62,7 +66,22 @@
 
 
 
-/*Option buttons properties*/
+/*Answer buttons properties (Template 2)*/
+.buttons2 {
+    margin: 10px;
+    height: 250px;
+    width: 200px;
+    display: inline-block;
+    font-size: 30px;
+}
+
+.buttons2 img {
+    height: 180px;
+    width: 180px;
+    margin-top: 10px;
+}
+
+/*Option buttons properties*/ /*----------MAY NOT BE NEEDED IN FUTURE OR JUST A NAME CHANGE----------*/
 .answerButton {
     margin: 7px;
     height: 100px;
