@@ -41,7 +41,7 @@
 
 /*Gradient button properties*/
 .gradientButton {
-    background-image: linear-gradient(to right, rgb(89, 33, 221), rgb(204, 21, 204));
+    background-image: linear-gradient(to right, #22128E, #9E1CB1);
 }
 
 /*Language choosing buttons in courses properties*/
