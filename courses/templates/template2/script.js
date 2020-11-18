@@ -1,16 +1,12 @@
 function Check() {
-    var i = 0;
-    var j = 0;
+    //this shit needs fixing
+    var CorrectAnswer = document.getElementById("A2")
 
-    var id = document.getElementById("to").value;
-
-    j++;
-    if(id == "to") {
-        document.getElementById("to").style.borderColor = "green";
-        i++;
-    }
+    if(document.getElementById('A1').clicked == true)
+        document.getElementById("A1").style.borderColor = "green";
     else
-        document.getElementById("to").style.borderColor = "red";
+        document.getElementById("A1").style.borderColor = "red";
     
+    //this is the only this that will work vv
     document.getElementById("panelMessage").innerText = "Correct!";
 }
