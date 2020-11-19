@@ -81,6 +81,11 @@
     margin-top: 10px;
 }
 
+.buttons2Clicked {
+    background-color: rgb(36, 36, 36);
+    transform: translateY(4px);
+}
+
 /*Option buttons properties*/ /*----------MAY NOT BE NEEDED IN FUTURE OR JUST A NAME CHANGE----------*/
 .answerButton {
     margin: 7px;

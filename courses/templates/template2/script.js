@@ -1,11 +1,6 @@
 function Check() {
-    //this shit needs fixing
-    var CorrectAnswer = document.getElementById("A2")
-
-    if(document.getElementById('A1').clicked == true)
-        document.getElementById("A1").style.borderColor = "green";
-    else
-        document.getElementById("A1").style.borderColor = "red";
+    var dugme = document.getElementById("A1");
+    dugme.classList.remove("mystyle");
     
     //this is the only this that will work vv
     document.getElementById("panelMessage").innerText = "Correct!";
