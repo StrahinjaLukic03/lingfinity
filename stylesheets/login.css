@@ -21,6 +21,12 @@ input[type=email], input[type=password] {
     outline: none;
     background-color: black;
     color: white;
+    transition: .3s;
+}
+
+input:focus {
+    box-shadow: 0px 4px #7a3dca;
+    border-color: #7a3dca;
 }
 
 .bottomLinks {
