@@ -41,13 +41,13 @@
         <!--Answer buttons-->
         <div class="buttons">
             <div>
-                <button type="button" class="button answerButton" onclick="eval(this)">Answer 1</button>
-                <button type="button" class="button answerButton" onclick="eval(this)">Answer 2</button>
+                <button type="button" class="button answerButton" id="a1" onclick="setClickedButton(this)">Answer 1</button>
+                <button type="button" class="button answerButton" id="a2" onclick="setClickedButton(this)">Answer 2</button>
             </div>
             <!--Answer buttons 2nd row-->
             <div>
-                <button type="button" class="button answerButton" onclick="eval(this)">Answer 3</button>
-                <button type="button" class="button answerButton" onclick="eval(this)">Answer 4</button>
+                <button type="button" class="button answerButton" id="a3" onclick="setClickedButton(this)">Answer 3</button>
+                <button type="button" class="button answerButton" id="a4" onclick="setClickedButton(this)">Answer 4</button>
             </div>
         </div>
     </div>
@@ -63,9 +63,9 @@
 <!--Scripts-->
 <script src="course.js"></script>
 <script src="courseLink.js"></script>
-<script src="answer.ts"></script>
-<script src="answers.ts"></script>
-<script src="answersSheet.ts"></script>
+<script src="answer.js"></script>
+<script src="answers.js"></script>
+<script src="answersSheet.js"></script>
 <script src="courseLink.js"></script>
 </body>
 </html>
