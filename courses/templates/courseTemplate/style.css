@@ -1,0 +1,33 @@
+.course {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 5px solid white;
+    cursor: pointer;
+    margin: 80px;
+    user-select: none;
+}
+
+.course img {
+    padding-top: 15px;
+    height: 75px;
+    width: 75px;
+}
+
+.course p {
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+a {
+    color: white;
+}
+
+.course1 {
+    background-color: green;
+}
+
+.course2 {
+    background-color: orange;
+}
