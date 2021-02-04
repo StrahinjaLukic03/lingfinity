@@ -1,15 +1,32 @@
-.center {
-    text-shadow: 1.5px 2px 2.5px #00000069;
+.aboutPage {
+    padding: 50px;
+    padding-top: 75px;
 }
 
-.aboutHeader{
-    z-index: 2;
-    font-weight: bold;
+.aboutHeader {
     font-size: 40px;
     padding-bottom: 15px;
+    padding-left: 15px;
+    color: #7a3dca;
+}
+
+.aboutHeader2 {
+    font-size: 30px;
+    padding-bottom: 15px;
+    background-color: #2d223a;
+    border-radius: 20px;
+    padding-left: 15px;
+    padding-top: 15px;
 }
 
 .aboutText {
-    font-family: Nunito, Calibri;
     font-size: 25px;
+    padding: 30px 15px 15px 15px;
+    background-color: #403152;
+    border-radius: 0px 0px 20px 20px;
+    margin-top: -15px;
+    text-align: justify;
+    position: relative;
+    z-index: -1;
+    margin-bottom: 20px;
 }
