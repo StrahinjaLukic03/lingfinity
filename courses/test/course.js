@@ -30,7 +30,7 @@ function check(){
 	{
 		if(a.correct)
 		{
-			console.log("Correct!");
+			console.log("Nice cock!");
 		}
 
 	})
