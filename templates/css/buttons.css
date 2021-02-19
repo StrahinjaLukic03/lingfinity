@@ -83,15 +83,9 @@
 
 .buttons2Clicked {
     background-color: rgb(36, 36, 36);
-    transform: translateY(4px);
+    box-shadow: #7a3dca 0px 0px 0px 5px;
 }
 
-/*Option buttons properties*/ /*----------MAY NOT BE NEEDED IN FUTURE OR JUST A NAME CHANGE----------*/
-.answerButton {
-    margin: 7px;
-    height: 100px;
-    width: 175px;
-}
 
 
 
