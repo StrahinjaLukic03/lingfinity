@@ -1,32 +1,11 @@
-.center {
-    text-shadow: 1.5px 2px 2.5px #00000069;
+.contactPage {
+    padding: 50px;
+    padding-top: 75px;
 }
 
 .contactHeader {
     font-size: 40px;
     padding-bottom: 15px;
-}
-
-.contactText {
-    font-size: 25px;
-}
-
-.contactText a {
-    color: #5318a0;
-    transition: 0.3s;
-}
-
-.contactText a:hover {
+    padding-left: 15px;
     color: #7a3dca;
-    text-shadow: 3px 3px 10px #7a3dca;
-}
-
-.DSTitle {
-    color: rgb(219, 164, 255);
-    transition: .3s;
-    cursor: pointer;
-}
-
-.DSTitle:hover {
-    color: rgb(153, 0, 255);
 }
