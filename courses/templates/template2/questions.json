@@ -1,0 +1,40 @@
+[
+    {
+        "question": "Which one of these is a dog?",
+        "answer1": [{
+            "text": "kissa",
+            "image": "../../images/course/cat.png"
+        }],
+        "answer2": [{
+            "text": "koira",
+            "image": "../../images/course/dog.png"
+        }],
+        "answer3": [{
+            "text": "kani",
+            "image": "../../images/course/rabbit.png"
+        }],
+        "answer4": [{
+            "text": "lintu",
+            "image": "../../images/course/bird.png"
+        }]
+    },
+    {
+        "question": "Which one of these is a cat?",
+        "answer1": [{
+            "text": "kani",
+            "image": "../../images/course/rabbit.png"
+        }],
+        "answer2": [{
+            "text": "koira",
+            "image": "../../images/course/dog.png"
+        }],
+        "answer3": [{
+            "text": "lintu",
+            "image": "../../images/course/bird.png"
+        }],
+        "answer4": [{
+            "text": "kissa",
+            "image": "../../images/course/cat.png"
+        }]
+    }
+]
