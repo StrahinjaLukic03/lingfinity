@@ -3,38 +3,46 @@
         "question": "Which one of these is a dog?",
         "answer1": [{
             "text": "kissa",
-            "image": "../../images/course/cat.png"
+            "image": "../../images/course/cat.png",
+            "correct": false
         }],
         "answer2": [{
             "text": "koira",
-            "image": "../../images/course/dog.png"
+            "image": "../../images/course/dog.png",
+            "correct": true
         }],
         "answer3": [{
             "text": "kani",
-            "image": "../../images/course/rabbit.png"
+            "image": "../../images/course/rabbit.png",
+            "correct": false
         }],
         "answer4": [{
             "text": "lintu",
-            "image": "../../images/course/bird.png"
+            "image": "../../images/course/bird.png",
+            "correct": false
         }]
     },
     {
         "question": "Which one of these is a cat?",
         "answer1": [{
             "text": "kani",
-            "image": "../../images/course/rabbit.png"
+            "image": "../../images/course/rabbit.png",
+            "correct": false
         }],
         "answer2": [{
             "text": "koira",
-            "image": "../../images/course/dog.png"
+            "image": "../../images/course/dog.png",
+            "correct": false
         }],
         "answer3": [{
             "text": "lintu",
-            "image": "../../images/course/bird.png"
+            "image": "../../images/course/bird.png",
+            "correct": true
         }],
         "answer4": [{
             "text": "kissa",
-            "image": "../../images/course/cat.png"
+            "image": "../../images/course/cat.png",
+            "correct": false
         }]
     }
 ]
