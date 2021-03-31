@@ -1,7 +1,6 @@
 /*General properties*/
 * {
     font-size: 22px;
-    user-select: none;
 }
 
 /*Leave button properties*/
@@ -53,7 +52,28 @@ input:focus {
 
 /*Additional center div properties*/
 .center {
-    width: 1000px;
+    width: auto;
+}
+
+/*Content properties*/
+.content {
+    display: flex;;
+}
+
+/*Left panel properties*/
+.leftPanel {
+    position: static;
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 160px;
+    box-shadow: gray 1px 0px 0px;
+    height: 1000px;
+}
+
+/*Right panel properties*/
+.rightPanel {
+    margin-top: 25px;
+    padding-left: 40px;
 }
 
 /*The properties of the panel on the bottom of the page*/

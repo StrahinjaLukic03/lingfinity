@@ -13,7 +13,7 @@
 }
 
 .button:hover {
-    box-shadow: 0px 4px rgb(36, 36, 36);
+    box-shadow: 0px 5px rgb(50, 50, 50);
     text-decoration: none;
     color: white;
     transition: .3s;
@@ -41,11 +41,14 @@
 
 
 
-/*Gradient button properties*/
+/*Gradient buttons properties*/
 .gradientButton {
     background-image: linear-gradient(to right, #22128E, #9E1CB1);
 }
 
+.gradientButton2 {
+    background-image: linear-gradient(to right, #49ada8, #40a055);
+}
 
 
 /*Language choosing buttons in courses properties*/
@@ -96,7 +99,7 @@
     position: fixed;
     height: 55px;
     width: 150px;
-    transition: .3s;   
+    transition: .3s;
 }
 
 
@@ -117,4 +120,25 @@
     font-weight: bold;
     font-size: 20px;
     border-radius: 10px;
+}
+
+
+
+/*Properties of the go back button*/
+
+.goBackButton {
+    margin-top: 22px;
+    height: 55px;
+    width: 150px;
+    transition: .3s;
+}
+
+
+/*Properties of the practice button*/
+
+.practiceButton {
+    margin-top: 22px;
+    height: 55px;
+    width: 150px;
+    transition: .3s;
 }
