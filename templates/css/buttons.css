@@ -129,7 +129,8 @@
 .goBackButton {
     margin-top: 22px;
     height: 55px;
-    width: 150px;
+    width: 55px;
+    background-color: rgb(40, 40, 40);
     transition: .3s;
 }
 
@@ -137,8 +138,10 @@
 /*Properties of the practice button*/
 
 .practiceButton {
+    position: absolute;
     margin-top: 22px;
     height: 55px;
     width: 150px;
     transition: .3s;
+    right: 0%;
 }
