@@ -63,18 +63,20 @@ input:focus {
 
 /*Content class properties*/
 .content {
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 50px;
     position: absolute;
-    left: 50%;
-    top: 350px;
-    transform: translate(-50%, -50%);
+    text-align: justify;
+}
+
+.content p {
+    max-width: 1000px;
 }
 
 /*Top panel properties*/
 .topPanel {
     display: inline-flex;
-    width: 700px;
+    max-width: 800px;
 }
 
 /*Bottom panel properties*/
@@ -107,7 +109,7 @@ input:focus {
 table {
     border-collapse: separate;
     border-spacing: 0;
-    width: 800px;
+    width: auto;
 }
 
 table tr th,
@@ -115,7 +117,7 @@ table tr td {
     border-right: 2px solid white;
     border-bottom: 2px solid white;
     padding: 5px;
-    width: 400px;
+    width: auto;
 }
 
 table tr th:first-child,

@@ -1,0 +1,17 @@
+/*General course button properties*/
+.course {
+    height: 100px;
+    width: 300px;
+    background-color: black;
+    border-radius: 15px;
+    cursor: pointer;
+    user-select: none;
+    text-align: center;
+}
+
+.separator {
+    background-color: white;
+    width: 4px;
+    height: 80px;
+    margin-left: 150px;
+}

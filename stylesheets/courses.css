@@ -1,3 +1,7 @@
+* {
+    user-select: none;
+}
+
 .chooseLanguageHeader {
     z-index: 2;
     font-size: 30px;
