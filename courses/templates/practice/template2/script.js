@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
           myBtns.forEach(b => b.classList.remove('buttons2Clicked'));
           btn.classList.add('buttons2Clicked');
         });
- 
+
     });
 
 });

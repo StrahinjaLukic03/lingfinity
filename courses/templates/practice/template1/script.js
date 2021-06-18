@@ -12,5 +12,8 @@ function Check() {
     else
         document.getElementById("to").style.borderColor = "red";
     
-    document.getElementById("panelMessage").innerText = "You answered " + i + "/" + j + " correctly.";
+    if(id == 0)
+        document.getElementById("panelMessage").innerText = "You left a field empty.";
+    else
+        document.getElementById("panelMessage").innerText = "You answered " + i + "/" + j + " correctly.";
 }

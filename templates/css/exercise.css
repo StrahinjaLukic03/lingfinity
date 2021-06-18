@@ -53,7 +53,7 @@ input {
 }
 
 input:focus {
-    border-bottom: solid 5px white;
+    border-bottom: solid 2px #7a3dca;
 }
 
 /*Additional center div properties*/
@@ -90,7 +90,7 @@ input:focus {
     font-size: 22px;
     height: 100px;
     width: 100%;
-    background-color: black;
+    background-color: rgb(30, 30, 30);
     bottom: 0;
     position: absolute;
     margin: 0 auto;
