@@ -22,13 +22,21 @@
 
         <!--Exercise title and icon-->
         <div class="exerciseTitle">
-            <img src="../../../../images/course/icons/sparkles.png" class="exerciseIcon">
+            <img src="../../../../images/course/icons/lines.png" class="exerciseIcon">
             <p id="exerciseTitle">Translate "How are you?" to Serbian in singular.</p>
         </div>
 
         <!--Exercise-->
         <div>
             <input type="text" id="answer" style="width: 200px;" autofocus>?
+        </div>
+
+        <div class="letterButtons">
+            <button class="button letterButton" onclick="ch()">č</button>
+            <button class="button letterButton" onclick="tj()">ć</button>
+            <button class="button letterButton" onclick="dj()">đ</button>
+            <button class="button letterButton" onclick="sh()">š</button>
+            <button class="button letterButton" onclick="zh()">ž</button>
         </div>
     </div>
 
@@ -37,10 +45,11 @@
     <!-- The panel at the bottom of the page-->
     <div class="panel" id="panel">
         <!--Message-->
-        <p class="panelMessage" id="panelMessage">Enter the answers and then press the <b>Check</b> button.</p>
+        <p class="panelMessage" id="panelMessage">Enter the answer and then press the <b>Check</b> button.</p>
         <!--Check/Continue button-->
         <button class="button panelButton continueButtonGlobal gradientButton" id="panelButton" onclick="Check();"><b>Check</b></button>
     </div>
 </body>
 <script src="script.js"></script>
+<script src="../../../../scripts/letterButtonsSerbian.js"></script>
 </html>

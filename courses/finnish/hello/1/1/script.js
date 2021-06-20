@@ -8,11 +8,11 @@ input.addEventListener("keyup", function(event) {
 function Check() {
     var id = document.getElementById("answer").value.toLowerCase();
     var answer = id;
+    
+    var correct = new Audio('/sfx/correct.mp3');
+    var wrong = new Audio('/sfx/wrong.mp3');
 
-    var correct = new Audio('../../../../sfx/correct.mp3');
-    var wrong = new Audio('../../../../sfx/wrong.mp3');
-
-    var correctAnswer = "kako si";
+    var correctAnswer = "minä";
 
     if(answer == correctAnswer) {
         document.getElementById("answer").style.borderColor = "green";
@@ -28,7 +28,7 @@ function Check() {
     }
 
     if(document.getElementById("panelButton").innerText=="Continue")
-        window.location.href = "../4/exercise.html";
+        window.location.href = "../2/exercise.html";
 
     if(id == 0)
         document.getElementById("panelMessage").innerText = "You left a field empty.";

@@ -12,7 +12,9 @@ function Check() {
     var correct = new Audio('../../../../sfx/correct.mp3');
     var wrong = new Audio('../../../../sfx/wrong.mp3');
 
-    if(answer == "šta" || answer == "sta") {
+    var correctAnswer = "šta";
+
+    if(answer == correctAnswer) {
         document.getElementById("answer").style.borderColor = "green";
         document.getElementById("panelMessage").innerText = "Your answer is correct.";
         document.getElementById("panel").style.backgroundColor = "rgb(0, 70, 0)";
@@ -20,7 +22,7 @@ function Check() {
     }
     else {
         document.getElementById("answer").style.borderColor = "red";
-        document.getElementById("panelMessage").innerText = "Your answer is wrong.";
+        document.getElementById("panelMessage").innerText = "Your answer is wrong. The correct answer is: " + correctAnswer + ".";
         document.getElementById("panel").style.backgroundColor = "rgb(70, 0, 0)";
         wrong.play();
     }

@@ -9,10 +9,10 @@ function Check() {
     var id = document.getElementById("answer").value.toLowerCase();
     var answer = id;
 
-    var correct = new Audio('../../../../sfx/correct.mp3');
-    var wrong = new Audio('../../../../sfx/wrong.mp3');
+    var correct = new Audio('/sfx/correct.mp3');
+    var wrong = new Audio('/sfx/wrong.mp3');
 
-    var correctAnswer = "kako si";
+    var correctAnswer = "terve";
 
     if(answer == correctAnswer) {
         document.getElementById("answer").style.borderColor = "green";

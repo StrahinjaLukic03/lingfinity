@@ -74,6 +74,12 @@ input:focus {
     max-width: 1000px;
 }
 
+/*Letter buttons group properties*/
+
+.letterButtons {
+    margin-top: 50px;
+}
+
 /*Top panel properties*/
 .topPanel {
     display: inline-flex;
