@@ -59,6 +59,7 @@ input:focus {
 /*Additional center div properties*/
 .center {
     width: auto;
+    user-select: none;
 }
 
 /*Content class properties*/
@@ -96,6 +97,7 @@ input:focus {
     margin: 0 auto;
     text-align: center;
     display: inline-flex;
+    user-select: none;
 }
 
 /*The properties of the message in a panel on the bottom of the page*/
