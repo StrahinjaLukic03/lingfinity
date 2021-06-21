@@ -13,8 +13,9 @@ function Check() {
     var wrong = new Audio('/sfx/wrong.mp3');
 
     var correctAnswer = "olen";
+    var correctAnswer1 = "oon";
 
-    if(answer == correctAnswer) {
+    if(answer == correctAnswer || answer == correctAnswer1) {
         document.getElementById("answer").style.borderColor = "green";
         document.getElementById("panelMessage").innerText = "Your answer is correct.";
         document.getElementById("panel").style.backgroundColor = "rgb(0, 70, 0)";
